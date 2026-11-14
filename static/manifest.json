@@ -1,0 +1,9 @@
+{
+  "name": "Hampi Daari",
+  "short_name": "Hampi Daari",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2b2622",
+  "theme_color": "#2b2622"
+}
+

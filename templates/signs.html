@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hampi Daari signboards</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="signs-page">
+<header class="signs-head no-print">
+  <a href="/" class="back">&larr; Back to the app</a>
+  <h1>Signboards</h1>
+  <p>Print these and fix one at each monument. A visitor scans the code and the monument opens on their phone with its facts and sources. There is no app to install.</p>
+  <p class="muted">The codes point to <b>{{ base }}</b>. If that is a local address, phones must be on the same Wi-Fi or hotspot as this laptop. Set PUBLIC_URL to a hosted address before printing boards for real use.
+  {% if not qr_ready %}<br><b>QR codes are off:</b> run <code>pip install segno</code> and restart.{% endif %}</p>
+  <button onclick="window.print()" class="btn">Print {{ 'this signboard' if single else 'all signboards' }}</button>
+</header>
+<main class="signs {{ 'single' if single else '' }}">
+{% for c in cards %}
+  <section class="sign">
+    <div class="sign-top">HAMPI DAARI &middot; {{ c.site.zone }}</div>
+    <h2>{{ c.site.name.en }}</h2>
+    <div class="sign-names">{{ c.site.name.kn }} &middot; {{ c.site.name.hi }}</div>
+    <p class="sign-sum">{{ c.site.summary.en }}</p>
+    <div class="sign-qr">{{ c.qr | safe }}</div>
+    <div class="sign-cta">Scan to read and listen</div>
+    <div class="sign-foot">ಸ್ಕ್ಯಾನ್ ಮಾಡಿ &middot; स्कैन करें &middot; English, ಕನ್ನಡ, हिंदी &middot; free</div>
+    {% if not single %}<a class="no-print sign-link" href="/sign/{{ c.site.id }}">Open large</a>{% endif %}
+  </section>
+{% endfor %}
+</main>
+</body>
+</html>

@@ -1,0 +1,348 @@
+[
+  {
+    "id": "virupaksha",
+    "name": {"en": "Virupaksha Temple", "kn": "ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯ", "hi": "विरुपाक्ष मंदिर"},
+    "aliases": ["virupaksha", "pampapathi", "pampapati", "main temple"],
+    "zone": "Sacred centre",
+    "lat": 15.3350, "lon": 76.4587,
+    "visit_min": 45, "priority": 5,
+    "summary": {
+      "en": "The oldest working temple in Hampi. Shiva is worshipped here as Virupaksha, and prayers have continued through the fall of the city to this day.",
+      "kn": "ಹಂಪಿಯ ಅತ್ಯಂತ ಹಳೆಯ, ಇಂದಿಗೂ ಪೂಜೆ ನಡೆಯುವ ದೇವಾಲಯ. ಇಲ್ಲಿ ಶಿವನನ್ನು ವಿರೂಪಾಕ್ಷನಾಗಿ ಪೂಜಿಸಲಾಗುತ್ತದೆ.",
+      "hi": "हम्पी का सबसे पुराना मंदिर, जहाँ आज भी पूजा होती है। यहाँ शिव की विरुपाक्ष रूप में आराधना की जाती है।"
+    },
+    "facts": [
+      {"text": "The shrine is older than the Vijayanagara empire. Inscriptions about the shrine go back to the 9th century, and the small shrine grew into a large complex under the Vijayanagara kings.", "kind": "recorded", "source": "Inscriptions / ASI"},
+      {"text": "Krishnadevaraya added the central pillared hall (ranga mantapa) in 1510 to mark his coronation. He did not build the whole temple.", "kind": "recorded", "source": "Inscription of 1510"},
+      {"text": "The eastern gateway tower is about 50 metres tall and has nine tiers.", "kind": "recorded", "source": "ASI"},
+      {"text": "In a dark chamber behind the sanctum, a small slit in the wall throws an upside-down image of the gateway tower on the opposite wall. It works like a pinhole camera.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "Pampa, a local river goddess, is said to have married Virupaksha here. The name Hampi is believed to come from Pampa.", "kind": "tradition", "source": "Local tradition"}
+    ],
+    "tip": "Footwear is left outside. The temple is busiest in the early morning and at dusk."
+  },
+  {
+    "id": "hemakuta",
+    "name": {"en": "Hemakuta Hill Temples", "kn": "ಹೇಮಕೂಟ ಬೆಟ್ಟ", "hi": "हेमकूट पहाड़ी"},
+    "aliases": ["hemakuta", "hemakoota", "hemakunta", "jain temples"],
+    "zone": "Sacred centre",
+    "lat": 15.3337, "lon": 76.4583,
+    "visit_min": 30, "priority": 4,
+    "summary": {
+      "en": "A sloping sheet of rock beside Virupaksha with more than thirty small shrines, many of them older than the empire.",
+      "kn": "ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದ ಪಕ್ಕದ ಬಂಡೆಗಲ್ಲಿನ ಬೆಟ್ಟ. ಇಲ್ಲಿ ಮೂವತ್ತಕ್ಕೂ ಹೆಚ್ಚು ಸಣ್ಣ ಗುಡಿಗಳಿವೆ.",
+      "hi": "विरुपाक्ष मंदिर के पास की चट्टानी पहाड़ी, जिस पर तीस से अधिक छोटे मंदिर हैं।"
+    },
+    "facts": [
+      {"text": "Most of the shrines on Hemakuta are dedicated to Shiva. They are often called Jain temples because of their stepped pyramid roofs, but that label is wrong.", "kind": "recorded", "source": "ASI / architectural study"},
+      {"text": "Several shrines here date from the 9th to the early 14th century, before the Vijayanagara empire began.", "kind": "recorded", "source": "ASI"},
+      {"text": "Shiva is said to have done penance on this hill before marrying Pampa, and to have burnt Kama, the god of desire, here.", "kind": "tradition", "source": "Local tradition"}
+    ],
+    "tip": "A good spot for sunset. The rock is slippery after rain."
+  },
+  {
+    "id": "sasivekalu",
+    "name": {"en": "Sasivekalu Ganesha", "kn": "ಸಾಸಿವೆಕಾಳು ಗಣೇಶ", "hi": "ससिवेकालु गणेश"},
+    "aliases": ["sasivekalu", "sasivekaalu", "mustard ganesha", "mustard seed"],
+    "zone": "Sacred centre",
+    "lat": 15.3325, "lon": 76.4594,
+    "visit_min": 10, "priority": 3,
+    "summary": {
+      "en": "A Ganesha about 2.4 metres tall, cut from one boulder and seated in an open pavilion.",
+      "kn": "ಒಂದೇ ಬಂಡೆಯಿಂದ ಕೆತ್ತಿದ, ಸುಮಾರು 2.4 ಮೀಟರ್ ಎತ್ತರದ ಗಣೇಶ ಮೂರ್ತಿ.",
+      "hi": "एक ही चट्टान से तराशी गई लगभग 2.4 मीटर ऊँची गणेश प्रतिमा।"
+    },
+    "facts": [
+      {"text": "The statue is about 2.4 metres (8 feet) tall and carved from a single boulder.", "kind": "recorded", "source": "ASI"},
+      {"text": "An inscription nearby dates the pavilion to 1506 and says a trader from Chandragiri built it in memory of king Narasimha II.", "kind": "recorded", "source": "Inscription of 1506"},
+      {"text": "Sasivekalu means mustard seed in Kannada. The name is a local nickname and does not come from any inscription.", "kind": "recorded", "source": "Kannada usage"},
+      {"text": "Ganesha is said to have eaten so much that his stomach was about to burst, so he tied a snake around it as a belt. The snake is carved on the statue.", "kind": "tradition", "source": "Local tradition"}
+    ],
+    "tip": "Walk around to the back: the statue is carved to look like Ganesha sitting on his mother Parvati's lap."
+  },
+  {
+    "id": "kadalekalu",
+    "name": {"en": "Kadalekalu Ganesha", "kn": "ಕಡಲೆಕಾಳು ಗಣೇಶ", "hi": "कडलेकालु गणेश"},
+    "aliases": ["kadalekalu", "kadalekaalu", "gram ganesha", "bengal gram"],
+    "zone": "Sacred centre",
+    "lat": 15.3338, "lon": 76.4603,
+    "visit_min": 10, "priority": 3,
+    "summary": {
+      "en": "One of the largest Ganesha statues in south India, about 4.5 metres tall, inside a shrine with slender tall pillars.",
+      "kn": "ಸುಮಾರು 4.5 ಮೀಟರ್ ಎತ್ತರದ, ದಕ್ಷಿಣ ಭಾರತದ ದೊಡ್ಡ ಗಣೇಶ ಮೂರ್ತಿಗಳಲ್ಲಿ ಒಂದು.",
+      "hi": "लगभग 4.5 मीटर ऊँची, दक्षिण भारत की सबसे बड़ी गणेश प्रतिमाओं में से एक।"
+    },
+    "facts": [
+      {"text": "The statue is about 4.5 metres (15 feet) tall and carved from one boulder.", "kind": "recorded", "source": "ASI"},
+      {"text": "Kadalekalu means Bengal gram in Kannada. The belly of the statue is shaped like a gram seed, which gave it the nickname.", "kind": "recorded", "source": "Kannada usage"}
+    ],
+    "tip": "The pillared hall in front gives a clear view down to Hampi Bazaar."
+  },
+  {
+    "id": "krishna",
+    "name": {"en": "Krishna Temple", "kn": "ಕೃಷ್ಣ ದೇವಾಲಯ", "hi": "कृष्ण मंदिर"},
+    "aliases": ["krishna temple", "balakrishna", "bala krishna"],
+    "zone": "Sacred centre",
+    "lat": 15.3304, "lon": 76.4607,
+    "visit_min": 25, "priority": 4,
+    "summary": {
+      "en": "Built by Krishnadevaraya in 1513 after his campaign in the east. A stone slab in the courtyard records why.",
+      "kn": "ಕೃಷ್ಣದೇವರಾಯನು 1513ರಲ್ಲಿ ಪೂರ್ವದ ದಂಡಯಾತ್ರೆಯ ನಂತರ ಕಟ್ಟಿಸಿದ ದೇವಾಲಯ.",
+      "hi": "कृष्णदेवराय ने 1513 में पूर्वी अभियान के बाद यह मंदिर बनवाया।"
+    },
+    "facts": [
+      {"text": "Krishnadevaraya built the temple in 1513 to mark his victory over the Gajapati ruler of Odisha at Udayagiri.", "kind": "recorded", "source": "Inscription of 1513"},
+      {"text": "He brought an image of the child Krishna (Balakrishna) from Udayagiri and installed it here. That image is now kept in the Government Museum, Chennai, so the sanctum is empty.", "kind": "recorded", "source": "Inscription / museum record"},
+      {"text": "The long pillared street in front of the temple was a market. The tank beside it, the Pushkarani, is still there.", "kind": "recorded", "source": "ASI"}
+    ],
+    "tip": "Look for the inscribed slab standing in the courtyard near the main hall."
+  },
+  {
+    "id": "narasimha",
+    "name": {"en": "Lakshmi Narasimha and Badavilinga", "kn": "ಲಕ್ಷ್ಮೀ ನರಸಿಂಹ ಮತ್ತು ಬಡವಿಲಿಂಗ", "hi": "लक्ष्मी नरसिंह और बडवीलिंग"},
+    "aliases": ["narasimha", "ugra narasimha", "lakshmi narasimha", "badavilinga", "badavi linga", "linga"],
+    "zone": "Sacred centre",
+    "lat": 15.3289, "lon": 76.4603,
+    "visit_min": 15, "priority": 4,
+    "summary": {
+      "en": "The largest statue in Hampi, 6.7 metres tall, and beside it a 3 metre Shiva linga that stands in water.",
+      "kn": "ಹಂಪಿಯ ಅತಿ ದೊಡ್ಡ ಮೂರ್ತಿ, 6.7 ಮೀಟರ್ ಎತ್ತರ. ಪಕ್ಕದಲ್ಲಿ ನೀರಿನಲ್ಲಿ ನಿಂತಿರುವ 3 ಮೀಟರ್ ಶಿವಲಿಂಗ.",
+      "hi": "हम्पी की सबसे बड़ी प्रतिमा, 6.7 मीटर ऊँची। पास में पानी में खड़ा 3 मीटर का शिवलिंग।"
+    },
+    "facts": [
+      {"text": "The Narasimha statue is 6.7 metres tall and carved from a single granite boulder. It is the largest statue in Hampi.", "kind": "recorded", "source": "ASI"},
+      {"text": "It was made in 1528, in the last years of Krishnadevaraya's reign.", "kind": "recorded", "source": "Inscription of 1528"},
+      {"text": "The statue is often called Ugra (angry) Narasimha, but it originally had the goddess Lakshmi seated on its lap. Her figure was broken off; one hand can still be seen on the back. The correct name is Lakshmi Narasimha.", "kind": "recorded", "source": "ASI"},
+      {"text": "The Badavilinga next to it is a Shiva linga about 3 metres high, cut from one stone. Its base stays under water fed by a channel.", "kind": "recorded", "source": "ASI"},
+      {"text": "Badava means poor in Kannada. The linga is said to have been paid for by a poor woman.", "kind": "tradition", "source": "Local tradition"}
+    ],
+    "tip": "The two are a few steps apart. Morning light is best for photographs."
+  },
+  {
+    "id": "underground",
+    "name": {"en": "Underground Shiva Temple", "kn": "ನೆಲಮಾಳಿಗೆ ಶಿವ ದೇವಾಲಯ", "hi": "भूमिगत शिव मंदिर"},
+    "aliases": ["underground", "prasanna virupaksha", "underground shiva"],
+    "zone": "Royal centre",
+    "lat": 15.3216, "lon": 76.4640,
+    "visit_min": 15, "priority": 2,
+    "summary": {
+      "en": "A 14th century Shiva temple that sits below the present ground level, so its roof is level with the path.",
+      "kn": "ಈಗಿನ ನೆಲಮಟ್ಟಕ್ಕಿಂತ ಕೆಳಗಿರುವ 14ನೇ ಶತಮಾನದ ಶಿವ ದೇವಾಲಯ.",
+      "hi": "14वीं शताब्दी का शिव मंदिर, जो आज के ज़मीनी स्तर से नीचे है।"
+    },
+    "facts": [
+      {"text": "The temple is also called Prasanna Virupaksha and dates from the 14th century.", "kind": "recorded", "source": "ASI"},
+      {"text": "It was not built as a cellar. It stands on low ground, and soil built up around it over the centuries until the roof was at ground level.", "kind": "recorded", "source": "ASI"},
+      {"text": "Water from nearby channels seeps in, and the sanctum is often flooded.", "kind": "recorded", "source": "Can be seen on site"}
+    ],
+    "tip": "Carry a torch if you plan to walk inside. The floor may be wet."
+  },
+  {
+    "id": "hazararama",
+    "name": {"en": "Hazara Rama Temple", "kn": "ಹಜಾರ ರಾಮ ದೇವಾಲಯ", "hi": "हजार राम मंदिर"},
+    "aliases": ["hazara rama", "hazararama", "ramayana temple", "rama temple"],
+    "zone": "Royal centre",
+    "lat": 15.3179, "lon": 76.4690,
+    "visit_min": 25, "priority": 4,
+    "summary": {
+      "en": "The private temple of the royal family. Its walls tell the Ramayana in rows of carved panels.",
+      "kn": "ರಾಜಮನೆತನದ ಖಾಸಗಿ ದೇವಾಲಯ. ಗೋಡೆಗಳ ಮೇಲೆ ರಾಮಾಯಣದ ಕಥೆಯನ್ನು ಕೆತ್ತಲಾಗಿದೆ.",
+      "hi": "राजपरिवार का निजी मंदिर। इसकी दीवारों पर रामायण की कथा उकेरी गई है।"
+    },
+    "facts": [
+      {"text": "The temple was built in the early 15th century, in the reign of Devaraya I, at the centre of the royal enclosure.", "kind": "recorded", "source": "Inscription / ASI"},
+      {"text": "The Ramayana is carved on the walls of the main shrine in three rows that are read by walking around the temple.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "The outer compound wall shows a procession of elephants, horses, soldiers and dancing women, of the kind described at the Mahanavami festival.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "Hazara Rama is usually explained as 'a thousand Ramas', after the many carvings. The origin of the name is not settled.", "kind": "uncertain", "source": "Scholars differ"}
+    ],
+    "tip": "Start at the east entrance and walk clockwise to follow the story in order."
+  },
+  {
+    "id": "lotusmahal",
+    "name": {"en": "Lotus Mahal", "kn": "ಕಮಲ ಮಹಲ್", "hi": "लोटस महल"},
+    "aliases": ["lotus mahal", "kamal mahal", "chitrangi mahal", "zenana"],
+    "zone": "Royal centre",
+    "lat": 15.3203, "lon": 76.4709,
+    "visit_min": 20, "priority": 4,
+    "summary": {
+      "en": "A two-storey pavilion with arches like lotus petals, inside a walled compound known as the Zenana enclosure.",
+      "kn": "ಕಮಲದ ದಳಗಳಂತೆ ಕಮಾನುಗಳಿರುವ ಎರಡು ಅಂತಸ್ತಿನ ಮಂಟಪ.",
+      "hi": "कमल की पंखुड़ियों जैसे मेहराबों वाला दो मंज़िला मंडप।"
+    },
+    "facts": [
+      {"text": "The building mixes two styles: arches of the kind used in Deccan sultanate buildings, and pyramid towers of the kind used on temples.", "kind": "recorded", "source": "Architectural study"},
+      {"text": "It is built of brick and lime mortar with plaster, not of cut granite like the temples.", "kind": "recorded", "source": "ASI"},
+      {"text": "Nobody knows what the building was used for. 'Lotus Mahal' and 'Zenana enclosure' are names given much later. It may have been a council hall or a pavilion for the royal household.", "kind": "uncertain", "source": "No inscription names it"}
+    ],
+    "tip": "One ticket covers this enclosure and the Elephant Stables behind it."
+  },
+  {
+    "id": "elephantstables",
+    "name": {"en": "Elephant Stables", "kn": "ಆನೆ ಲಾಯ", "hi": "गजशाला"},
+    "aliases": ["elephant stable", "elephant stables", "gajashala", "aane laya"],
+    "zone": "Royal centre",
+    "lat": 15.3212, "lon": 76.4722,
+    "visit_min": 15, "priority": 4,
+    "summary": {
+      "en": "A long building with eleven domed chambers in a row, one of the best preserved structures in Hampi.",
+      "kn": "ಸಾಲಾಗಿ ಹನ್ನೊಂದು ಗುಮ್ಮಟದ ಕೋಣೆಗಳಿರುವ ಉದ್ದನೆಯ ಕಟ್ಟಡ.",
+      "hi": "एक कतार में ग्यारह गुंबददार कक्षों वाली लंबी इमारत।"
+    },
+    "facts": [
+      {"text": "The building has eleven chambers, each with a dome. The domes are of different shapes, arranged symmetrically around the centre.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "It is generally accepted that the royal elephants were kept here. Some scholars think it may have been used for other purposes.", "kind": "uncertain", "source": "Scholars differ"}
+    ],
+    "tip": "The lawn in front is one of the few shaded places to rest in the royal centre."
+  },
+  {
+    "id": "mahanavami",
+    "name": {"en": "Mahanavami Dibba", "kn": "ಮಹಾನವಮಿ ದಿಬ್ಬ", "hi": "महानवमी डिब्बा"},
+    "aliases": ["mahanavami", "dibba", "dasara dibba", "great platform"],
+    "zone": "Royal centre",
+    "lat": 15.3154, "lon": 76.4700,
+    "visit_min": 20, "priority": 4,
+    "summary": {
+      "en": "A stone platform about 8 metres high from which the king watched the nine-day Mahanavami festival.",
+      "kn": "ಸುಮಾರು 8 ಮೀಟರ್ ಎತ್ತರದ ಕಲ್ಲಿನ ವೇದಿಕೆ. ಇಲ್ಲಿಂದ ರಾಜನು ಮಹಾನವಮಿ ಉತ್ಸವವನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದನು.",
+      "hi": "लगभग 8 मीटर ऊँचा पत्थर का मंच, जहाँ से राजा महानवमी उत्सव देखते थे।"
+    },
+    "facts": [
+      {"text": "The platform rises in three tiers to about 8 metres. Its sides are carved with elephants, horses, hunters, dancers and foreign visitors.", "kind": "recorded", "source": "ASI"},
+      {"text": "The Portuguese traveller Domingo Paes, who visited around 1520, described the king watching the Mahanavami (Dasara) celebrations from a raised platform.", "kind": "recorded", "source": "Account of Domingo Paes, c. 1520"},
+      {"text": "Krishnadevaraya is said to have built or enlarged the platform after his victory at Udayagiri.", "kind": "tradition", "source": "Commonly told, no inscription"}
+    ],
+    "tip": "Climb the west steps for a view over the whole royal enclosure."
+  },
+  {
+    "id": "steppedtank",
+    "name": {"en": "Stepped Tank", "kn": "ಮೆಟ್ಟಿಲು ಕೊಳ", "hi": "सीढ़ीदार कुंड"},
+    "aliases": ["stepped tank", "pushkarani", "black tank", "step well", "stepwell"],
+    "zone": "Royal centre",
+    "lat": 15.3151, "lon": 76.4708,
+    "visit_min": 10, "priority": 3,
+    "summary": {
+      "en": "A square tank of dark stone with steps on all four sides, found under the soil only in the 1980s.",
+      "kn": "ನಾಲ್ಕೂ ಕಡೆ ಮೆಟ್ಟಿಲುಗಳಿರುವ ಕಪ್ಪು ಕಲ್ಲಿನ ಕೊಳ. 1980ರ ದಶಕದಲ್ಲಿ ಉತ್ಖನನದಲ್ಲಿ ಪತ್ತೆಯಾಯಿತು.",
+      "hi": "चारों ओर सीढ़ियों वाला काले पत्थर का कुंड, जो 1980 के दशक की खुदाई में मिला।"
+    },
+    "facts": [
+      {"text": "The tank lay buried and was uncovered by archaeologists in the 1980s.", "kind": "recorded", "source": "ASI excavation"},
+      {"text": "It is built of dark chlorite schist, not the local granite. The stone was brought from elsewhere.", "kind": "recorded", "source": "ASI"},
+      {"text": "Many blocks carry mason's marks that show the row and position of each stone, which suggests the tank was cut elsewhere and assembled here.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "A raised stone aqueduct beside the tank brought water to it.", "kind": "recorded", "source": "Can be seen on site"}
+    ],
+    "tip": "It is a two-minute walk from Mahanavami Dibba."
+  },
+  {
+    "id": "queensbath",
+    "name": {"en": "Queen's Bath", "kn": "ರಾಣಿ ಸ್ನಾನಗೃಹ", "hi": "रानी स्नानागार"},
+    "aliases": ["queens bath", "queen bath", "queen's bath", "rani snana"],
+    "zone": "Royal centre",
+    "lat": 15.3131, "lon": 76.4718,
+    "visit_min": 15, "priority": 3,
+    "summary": {
+      "en": "A plain square building that hides a sunken pool surrounded by arched corridors and balconies.",
+      "kn": "ಹೊರಗಿನಿಂದ ಸರಳ, ಒಳಗೆ ಕಮಾನುಗಳ ಮೊಗಸಾಲೆಯಿಂದ ಸುತ್ತುವರಿದ ಸ್ನಾನದ ಕೊಳ.",
+      "hi": "बाहर से सादी इमारत, जिसके भीतर मेहराबदार गलियारों से घिरा स्नान कुंड है।"
+    },
+    "facts": [
+      {"text": "The pool is about 15 metres square and 1.8 metres deep. A moat runs around the outside of the building.", "kind": "recorded", "source": "ASI"},
+      {"text": "The name is a later one. No record says it was reserved for queens, and its position outside the palace walls suggests the king and court used it.", "kind": "uncertain", "source": "No inscription names it"}
+    ],
+    "tip": "Usually the first stop when you enter from Kamalapura."
+  },
+  {
+    "id": "achyutaraya",
+    "name": {"en": "Achyutaraya Temple", "kn": "ಅಚ್ಯುತರಾಯ ದೇವಾಲಯ", "hi": "अच्युतराय मंदिर"},
+    "aliases": ["achyutaraya", "achyuta raya", "tiruvengalanatha", "courtesan street", "sule bazaar"],
+    "zone": "Sacred centre",
+    "lat": 15.3360, "lon": 76.4668,
+    "visit_min": 30, "priority": 3,
+    "summary": {
+      "en": "A large Vishnu temple from 1534 in a quiet valley between two hills. Few visitors reach it.",
+      "kn": "ಎರಡು ಬೆಟ್ಟಗಳ ನಡುವಿನ ಶಾಂತ ಕಣಿವೆಯಲ್ಲಿರುವ 1534ರ ವಿಷ್ಣು ದೇವಾಲಯ.",
+      "hi": "दो पहाड़ियों के बीच शांत घाटी में 1534 का विष्णु मंदिर।"
+    },
+    "facts": [
+      {"text": "The temple was consecrated in 1534, in the reign of Achyutaraya, the brother and successor of Krishnadevaraya.", "kind": "recorded", "source": "Inscription of 1534"},
+      {"text": "It is dedicated to Vishnu as Tiruvengalanatha. An officer of the court, Hiriya Tirumalaraja, paid for it. The king's name was attached to it later.", "kind": "recorded", "source": "Inscription of 1534"},
+      {"text": "The long ruined street in front of the temple was a market. It is known today as Courtesans' Street (Sule Bazaar).", "kind": "recorded", "source": "ASI"}
+    ],
+    "tip": "Reach it on foot from the end of Hampi Bazaar or by the path over Matanga Hill."
+  },
+  {
+    "id": "matanga",
+    "name": {"en": "Matanga Hill", "kn": "ಮಾತಂಗ ಬೆಟ್ಟ", "hi": "मातंग पहाड़ी"},
+    "aliases": ["matanga", "matanga hill", "sunrise point", "veerabhadra"],
+    "zone": "Sacred centre",
+    "lat": 15.3342, "lon": 76.4684,
+    "visit_min": 60, "priority": 3,
+    "summary": {
+      "en": "The highest point in Hampi. The climb takes about half an hour and shows the whole site laid out below.",
+      "kn": "ಹಂಪಿಯ ಅತಿ ಎತ್ತರದ ಸ್ಥಳ. ಇಲ್ಲಿಂದ ಇಡೀ ಹಂಪಿ ಕಾಣುತ್ತದೆ.",
+      "hi": "हम्पी का सबसे ऊँचा स्थान, जहाँ से पूरा हम्पी दिखता है।"
+    },
+    "facts": [
+      {"text": "Matanga is the highest hill in Hampi. A small Veerabhadra temple stands on the top.", "kind": "recorded", "source": "ASI"},
+      {"text": "In the Ramayana the sage Matanga had his hermitage on this hill, and Sugriva took shelter here from his brother Vali. Hampi is identified with Kishkindha, the monkey kingdom.", "kind": "tradition", "source": "Ramayana tradition"}
+    ],
+    "tip": "Do not climb alone before sunrise or after sunset. The steps have no railing."
+  },
+  {
+    "id": "bull",
+    "name": {"en": "Monolithic Bull", "kn": "ಎದುರು ಬಸವಣ್ಣ", "hi": "एदुरु बसवण्णा"},
+    "aliases": ["monolithic bull", "nandi", "yeduru basavanna", "eduru basavanna", "basavanna"],
+    "zone": "Sacred centre",
+    "lat": 15.3353, "lon": 76.4668,
+    "visit_min": 10, "priority": 2,
+    "summary": {
+      "en": "A large Nandi cut from one boulder at the far end of Hampi Bazaar, facing the Virupaksha temple.",
+      "kn": "ಹಂಪಿ ಬಜಾರಿನ ತುದಿಯಲ್ಲಿ, ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದತ್ತ ಮುಖ ಮಾಡಿರುವ ಏಕಶಿಲಾ ನಂದಿ.",
+      "hi": "हम्पी बाज़ार के छोर पर, विरुपाक्ष मंदिर की ओर मुख किए एक ही शिला से बना नंदी।"
+    },
+    "facts": [
+      {"text": "The bull is carved from a single boulder and sits in a two-storey pavilion. It faces the Virupaksha temple, nearly a kilometre away down the bazaar street.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "Yeduru Basavanna means 'the bull in front' in Kannada, because it faces the Shiva temple.", "kind": "recorded", "source": "Kannada usage"}
+    ],
+    "tip": "The path to Achyutaraya temple and Matanga Hill starts beside it."
+  },
+  {
+    "id": "kingsbalance",
+    "name": {"en": "King's Balance", "kn": "ರಾಜರ ತುಲಾಭಾರ", "hi": "राजा का तुलाभार"},
+    "aliases": ["kings balance", "king's balance", "tulabhara", "tula bhara", "balance"],
+    "zone": "Riverside",
+    "lat": 15.3408, "lon": 76.4727,
+    "visit_min": 5, "priority": 2,
+    "summary": {
+      "en": "A stone frame about 5 metres tall, like a gateway, on the path to the Vittala temple.",
+      "kn": "ವಿಠ್ಠಲ ದೇವಾಲಯದ ದಾರಿಯಲ್ಲಿರುವ ಸುಮಾರು 5 ಮೀಟರ್ ಎತ್ತರದ ಕಲ್ಲಿನ ಚೌಕಟ್ಟು.",
+      "hi": "विट्ठल मंदिर के रास्ते पर लगभग 5 मीटर ऊँचा पत्थर का ढाँचा।"
+    },
+    "facts": [
+      {"text": "The frame has two pillars and a cross beam with three stone loops on its underside, from which a balance could be hung.", "kind": "recorded", "source": "Can be seen on site"},
+      {"text": "On special days the king is said to have been weighed here against gold and gems, which were then given away.", "kind": "tradition", "source": "Local tradition"}
+    ],
+    "tip": "It is on the riverside walking path between Hampi Bazaar and Vittala."
+  },
+  {
+    "id": "vittala",
+    "name": {"en": "Vijaya Vittala Temple", "kn": "ವಿಜಯ ವಿಠ್ಠಲ ದೇವಾಲಯ", "hi": "विजय विट्ठल मंदिर"},
+    "aliases": ["vittala", "vitthala", "vithala", "stone chariot", "chariot", "musical pillars", "pillars", "ratha"],
+    "zone": "Riverside",
+    "lat": 15.3422, "lon": 76.4750,
+    "visit_min": 60, "priority": 5,
+    "summary": {
+      "en": "The most elaborate temple in Hampi, known for the stone chariot in its courtyard and the pillars that ring when struck.",
+      "kn": "ಹಂಪಿಯ ಅತ್ಯಂತ ಕಲಾತ್ಮಕ ದೇವಾಲಯ. ಕಲ್ಲಿನ ರಥ ಮತ್ತು ಸಂಗೀತ ಕಂಬಗಳಿಗೆ ಪ್ರಸಿದ್ಧ.",
+      "hi": "हम्पी का सबसे अलंकृत मंदिर, जो पत्थर के रथ और संगीत स्तंभों के लिए प्रसिद्ध है।"
+    },
+    "facts": [
+      {"text": "Building began under Devaraya II (1422 to 1446) and continued under Krishnadevaraya (1509 to 1529).", "kind": "recorded", "source": "Inscriptions / ASI"},
+      {"text": "The stone chariot is a shrine to Garuda, the eagle that carries Vishnu. It looks like one rock but is built from several granite blocks whose joints are hidden in the carving.", "kind": "recorded", "source": "ASI"},
+      {"text": "The chariot once had a brick tower on top, which was removed in the late 19th century. The chariot appears on the 50 rupee note issued in 2017.", "kind": "recorded", "source": "ASI / Reserve Bank of India"},
+      {"text": "The open hall has 56 pillars that give musical notes when tapped. They are solid granite, not hollow. Tapping them is now banned to prevent damage.", "kind": "recorded", "source": "ASI"},
+      {"text": "British officers are said to have cut open two pillars to look for something hidden inside and found nothing. The story is widely repeated but no dated record of it has been produced.", "kind": "tradition", "source": "Popular story"},
+      {"text": "The stone wheels of the chariot are said to have turned on their axles until they were fixed in place to protect them.", "kind": "tradition", "source": "Commonly told"}
+    ],
+    "tip": "Vehicles stop about 1 km before the temple. The last stretch is on foot or by battery vehicle."
+  }
+]

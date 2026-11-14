@@ -1,0 +1,162 @@
+[
+  {
+    "id": "pillars-hollow",
+    "site": "vittala",
+    "claim": "The musical pillars of the Vittala temple are hollow",
+    "alt": ["pillars are hollow inside", "musical pillars hollow", "the pillars make sound because they are hollow", "sa re ga ma pillars are hollow"],
+    "verdict": "false",
+    "answer": "The 56 pillars are solid granite. Each one is a single block cut into a cluster of slender columns, and the stone itself rings when struck."
+  },
+  {
+    "id": "british-cut",
+    "site": "vittala",
+    "claim": "The British cut two musical pillars to find out what was inside",
+    "alt": ["british cut the pillars", "britishers broke the pillars to see inside", "english cut the pillar open"],
+    "verdict": "legend",
+    "answer": "This is repeated by almost every guide, but no dated record of it has been produced. Treat it as a story. What is certain is that the pillars are solid."
+  },
+  {
+    "id": "chariot-monolith",
+    "site": "vittala",
+    "claim": "The stone chariot is carved out of a single rock",
+    "alt": ["stone chariot is monolithic", "chariot made from one stone", "chariot is a single stone", "ratha carved from one boulder"],
+    "verdict": "false",
+    "answer": "It is built from several granite blocks. The joints are hidden inside the carved details, which is why it looks like one piece."
+  },
+  {
+    "id": "chariot-50",
+    "site": "vittala",
+    "claim": "The stone chariot is printed on the 50 rupee note",
+    "alt": ["chariot on 50 rupees note", "hampi on fifty rupee note", "chariot is on currency note"],
+    "verdict": "true",
+    "answer": "Yes. The 50 rupee note issued in 2017 carries the Hampi stone chariot on its back."
+  },
+  {
+    "id": "chariot-wheels",
+    "site": "vittala",
+    "claim": "The wheels of the stone chariot used to rotate",
+    "alt": ["chariot wheels could turn", "wheels were rotating earlier", "wheels were cemented by government"],
+    "verdict": "legend",
+    "answer": "It is commonly said that the wheels turned and were later fixed to protect them. This app has no dated record for it, so it is marked as a story."
+  },
+  {
+    "id": "mughals",
+    "site": null,
+    "claim": "Hampi was destroyed by the Mughals",
+    "alt": ["mughals destroyed hampi", "aurangzeb destroyed hampi", "mughal army burnt vijayanagara", "tipu sultan destroyed hampi", "british destroyed hampi"],
+    "verdict": "false",
+    "answer": "The city was sacked in 1565 after the battle of Talikota by the combined armies of the Deccan sultanates (Bijapur, Ahmadnagar, Golconda and Bidar). The Mughals, Tipu Sultan and the British were not involved."
+  },
+  {
+    "id": "founded-1336",
+    "site": null,
+    "claim": "Vijayanagara was founded in 1336 by Harihara and Bukka",
+    "alt": ["hakka and bukka founded vijayanagara", "empire started in 1336", "harihara bukka established hampi", "sangama brothers founded the empire"],
+    "verdict": "true",
+    "answer": "Yes. The traditional founding date is 1336, by the brothers Harihara I and Bukka Raya I of the Sangama family."
+  },
+  {
+    "id": "unesco",
+    "site": null,
+    "claim": "Hampi is a UNESCO World Heritage Site",
+    "alt": ["hampi is unesco site", "world heritage site since 1986", "hampi unesco 1986"],
+    "verdict": "true",
+    "answer": "Yes. The Group of Monuments at Hampi was added to the World Heritage list in 1986."
+  },
+  {
+    "id": "krishnadevaraya-virupaksha",
+    "site": "virupaksha",
+    "claim": "Krishnadevaraya built the Virupaksha temple",
+    "alt": ["virupaksha temple was built by krishnadevaraya", "krishna deva raya constructed virupaksha", "virupaksha temple is 500 years old"],
+    "verdict": "partly",
+    "answer": "The shrine is centuries older than him. Krishnadevaraya added the central pillared hall in 1510 to mark his coronation. The tall eastern gateway was also repaired in his time."
+  },
+  {
+    "id": "ugra-narasimha",
+    "site": "narasimha",
+    "claim": "The big statue is Ugra Narasimha, the angry form",
+    "alt": ["ugra narasimha statue", "it is called ugra narasimha", "angry narasimha"],
+    "verdict": "partly",
+    "answer": "That is the popular name, but the statue originally had Lakshmi seated on its lap, so it is Lakshmi Narasimha. Her figure was broken off; one hand is still visible on the back."
+  },
+  {
+    "id": "hemakuta-jain",
+    "site": "hemakuta",
+    "claim": "The temples on Hemakuta hill are Jain temples",
+    "alt": ["hemakuta jain temples", "jain temples near virupaksha", "these are jain basadis"],
+    "verdict": "false",
+    "answer": "Most of them are Shiva shrines. The stepped pyramid roofs look like those on some Jain temples, which is how the wrong label stuck."
+  },
+  {
+    "id": "queens-bath",
+    "site": "queensbath",
+    "claim": "The Queen's Bath was the private bath of the queens",
+    "alt": ["queens used to bathe here", "queen's bath was only for queens", "royal ladies bathing place"],
+    "verdict": "unproven",
+    "answer": "The name was given much later. No record says who used it, and it stands outside the palace walls, so the king and court are just as likely."
+  },
+  {
+    "id": "lotus-mahal-queen",
+    "site": "lotusmahal",
+    "claim": "The Lotus Mahal was the queen's palace",
+    "alt": ["lotus mahal was built for the queen", "queens lived in lotus mahal", "lotus mahal was air cooled palace of queen", "krishnadevaraya's queen stayed in lotus mahal"],
+    "verdict": "unproven",
+    "answer": "No inscription names the building or its use. 'Lotus Mahal' and 'Zenana enclosure' are later names. It may have been a council hall or a pavilion."
+  },
+  {
+    "id": "kishkindha",
+    "site": "matanga",
+    "claim": "Hampi is the Kishkindha of the Ramayana",
+    "alt": ["hampi is kishkindha", "hanuman was born here", "vali and sugriva lived in hampi", "anjanadri is birthplace of hanuman"],
+    "verdict": "legend",
+    "answer": "This is a long-held belief and many places around Hampi are tied to the Ramayana. It is tradition, not something archaeology can confirm or rule out."
+  },
+  {
+    "id": "badavilinga",
+    "site": "narasimha",
+    "claim": "The Badavilinga was built by a poor woman",
+    "alt": ["poor lady built the linga", "badavi linga poor woman", "linga was commissioned by a peasant woman"],
+    "verdict": "legend",
+    "answer": "Badava means poor in Kannada and the story explains the name. There is no inscription that says who paid for it."
+  },
+  {
+    "id": "underground-built",
+    "site": "underground",
+    "claim": "The underground temple was built below the ground to hide it",
+    "alt": ["underground temple was secret", "temple was built underground to protect from invaders", "it was a secret tunnel temple"],
+    "verdict": "false",
+    "answer": "It was built on low ground at normal level. Soil piled up around it over the centuries until the roof was level with the path."
+  },
+  {
+    "id": "kings-balance",
+    "site": "kingsbalance",
+    "claim": "The king was weighed against gold on the King's Balance",
+    "alt": ["king weighed in gold", "tulabhara with gold and diamonds", "krishnadevaraya weighed himself with gold"],
+    "verdict": "legend",
+    "answer": "The stone frame has loops for hanging a balance, and weighing a ruler against gold (tulabhara) was a known royal custom. That it happened at this exact frame is tradition."
+  },
+  {
+    "id": "elephant-stables",
+    "site": "elephantstables",
+    "claim": "The Elephant Stables held the royal elephants",
+    "alt": ["elephants were kept here", "eleven elephants lived in the stable", "royal elephants stable"],
+    "verdict": "unproven",
+    "answer": "This is the accepted view and the chambers are the right size. No inscription confirms it, and a few scholars have suggested other uses."
+  },
+  {
+    "id": "krishna-idol",
+    "site": "krishna",
+    "claim": "The idol of the Krishna temple was stolen",
+    "alt": ["krishna idol was looted", "idol was destroyed by invaders", "krishna temple idol is missing"],
+    "verdict": "partly",
+    "answer": "The sanctum is empty, but the Balakrishna image was not lost. It is kept in the Government Museum, Chennai."
+  },
+  {
+    "id": "stepped-tank-old",
+    "site": "steppedtank",
+    "claim": "The stepped tank has always been open to visitors",
+    "alt": ["stepped tank was always visible", "tank was known for centuries"],
+    "verdict": "false",
+    "answer": "The tank was buried under soil and was uncovered by archaeologists only in the 1980s."
+  }
+]
