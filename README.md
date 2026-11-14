@@ -76,8 +76,8 @@ Tap a left-out monument to force it in. If forced monuments don't fit, the plan 
 
 When you open a monument (from the list, the map, or by scanning a QR code), the **Audio Guide** card appears with two modes:
 
-- **⚡ Brief Audio** — a short welcome narration: monument name, zone, summary, and visitor tip
-- **📖 Full Story / Audiobook** — a chapter-by-chapter narration covering history, architecture, legends, and mysteries, built from all the monument's facts
+- ** Brief Audio** — a short welcome narration: monument name, zone, summary, and visitor tip
+- ** Full Story / Audiobook** — a chapter-by-chapter narration covering history, architecture, legends, and mysteries, built from all the monument's facts
 
 The app selects the **best available voice** (prioritising Siri, Samantha, Natural, Neural, Aria, Google voices) and narrates sentence-by-sentence with a live progress bar. Long narratives are chunked to prevent browser speech synthesis cutoffs.
 
