@@ -27,6 +27,19 @@
       signsText: 'Hampi has very few signs. Each printed board carries a QR code. Scanning it opens that monument here, with no app to install.',
       signsBtn: 'Open printable signboards', error: 'Something went wrong. Is the server running?',
       needsInternet: 'Needs internet',
+      nearbyTitle: 'Stays, food and water nearby',
+      stayTonight: 'Where to stay tonight (near your last stop)',
+      findNearby: 'Find places near here',
+      nearbyNote: 'Live data from OpenStreetMap. Not checked by us: call ahead before you go.',
+      nearbyNone: 'Nothing listed on OpenStreetMap close to here. Try the Google Maps links above.',
+      nearbyFail: 'Could not load live places right now. The Google Maps links above still work.',
+      k_stay: 'Stays',
+      k_food: 'Food',
+      k_water: 'Drinking water',
+      k_toilet: 'Toilets',
+      k_atm: 'ATM / bank',
+      k_shop: 'Shops',
+      stayNear: 'Tonight, stay near here',
       grpHours: 'Hours', grpDays: 'Days / Multi-Day',
       h2: '2 h', h4: '4 h', h6: '6 h', h8: '8 h',
       d1: '1 Day (Full day)', d2: '2 Days', d3: '3 Days', w1: '1 Week (Complete tour)',
@@ -60,6 +73,19 @@
       signsText: 'ಹಂಪಿಯಲ್ಲಿ ಫಲಕಗಳು ಬಹಳ ಕಡಿಮೆ. ಪ್ರತಿ ಫಲಕದಲ್ಲಿ QR ಕೋಡ್ ಇದೆ. ಸ್ಕ್ಯಾನ್ ಮಾಡಿದರೆ ಆ ಸ್ಮಾರಕದ ಮಾಹಿತಿ ತೆರೆಯುತ್ತದೆ.',
       signsBtn: 'ಮುದ್ರಿಸಬಹುದಾದ ಫಲಕಗಳನ್ನು ತೆರೆಯಿರಿ', error: 'ಏನೋ ತಪ್ಪಾಗಿದೆ. ಸರ್ವರ್ ಚಾಲನೆಯಲ್ಲಿದೆಯೇ?',
       needsInternet: 'ಇಂಟರ್ನೆಟ್ ಬೇಕು',
+      nearbyTitle: 'ಹತ್ತಿರದ ವಸತಿ, ಊಟ ಮತ್ತು ನೀರು',
+      stayTonight: 'ಇಂದು ರಾತ್ರಿ ಎಲ್ಲಿ ಉಳಿಯಬೇಕು (ಕೊನೆಯ ಸ್ಥಳದ ಹತ್ತಿರ)',
+      findNearby: 'ಇಲ್ಲಿ ಹತ್ತಿರದ ಸ್ಥಳಗಳನ್ನು ಹುಡುಕಿ',
+      nearbyNote: 'OpenStreetMap ನಿಂದ ನೇರ ಮಾಹಿತಿ. ನಾವು ಪರಿಶೀಲಿಸಿಲ್ಲ: ಹೋಗುವ ಮೊದಲು ಕರೆ ಮಾಡಿ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.',
+      nearbyNone: 'ಇಲ್ಲಿ ಹತ್ತಿರ OpenStreetMap ನಲ್ಲಿ ಏನೂ ಇಲ್ಲ. ಮೇಲಿನ Google Maps ಲಿಂಕ್‌ಗಳನ್ನು ಬಳಸಿ.',
+      nearbyFail: 'ಈಗ ನೇರ ಮಾಹಿತಿ ಸಿಗಲಿಲ್ಲ. ಮೇಲಿನ Google Maps ಲಿಂಕ್‌ಗಳು ಕೆಲಸ ಮಾಡುತ್ತವೆ.',
+      k_stay: 'ವಸತಿ',
+      k_food: 'ಊಟ',
+      k_water: 'ಕುಡಿಯುವ ನೀರು',
+      k_toilet: 'ಶೌಚಾಲಯ',
+      k_atm: 'ಎಟಿಎಂ / ಬ್ಯಾಂಕ್',
+      k_shop: 'ಅಂಗಡಿಗಳು',
+      stayNear: 'ಇಂದು ರಾತ್ರಿ ಇಲ್ಲಿ ಹತ್ತಿರ ಉಳಿಯಿರಿ',
       grpHours: 'ಗಂಟೆಗಳು', grpDays: 'ದಿನಗಳು / ಪ್ರವಾಸ',
       h2: '2 ಗಂ', h4: '4 ಗಂ', h6: '6 ಗಂ', h8: '8 ಗಂ',
       d1: '1 ದಿನ (ಪೂರ್ಣ ದಿನ)', d2: '2 ದಿನಗಳು', d3: '3 ದಿನಗಳು', w1: '1 ವಾರ (ಸಂಪೂರ್ಣ ಪ್ರವಾಸ)',
@@ -93,6 +119,19 @@
       signsText: 'हम्पी में साइनबोर्ड बहुत कम हैं। हर बोर्ड पर QR कोड है। स्कैन करते ही उस स्मारक की जानकारी खुल जाती है।',
       signsBtn: 'छापने योग्य साइनबोर्ड खोलें', error: 'कुछ गड़बड़ हुई। क्या सर्वर चल रहा है?',
       needsInternet: 'इंटरनेट चाहिए',
+      nearbyTitle: 'आस-पास ठहरने, खाने और पानी की जगहें',
+      stayTonight: 'आज रात कहाँ ठहरें (आखिरी जगह के पास)',
+      findNearby: 'यहाँ आस-पास की जगहें खोजें',
+      nearbyNote: 'OpenStreetMap से सीधी जानकारी। हमने इसकी जाँच नहीं की है: जाने से पहले फ़ोन करके पुष्टि कर लें।',
+      nearbyNone: 'यहाँ पास में OpenStreetMap पर कुछ नहीं मिला। ऊपर के Google Maps लिंक आज़माएँ।',
+      nearbyFail: 'अभी सीधी जानकारी नहीं मिल पाई। ऊपर के Google Maps लिंक काम करते हैं।',
+      k_stay: 'ठहरने की जगह',
+      k_food: 'खाना',
+      k_water: 'पीने का पानी',
+      k_toilet: 'शौचालय',
+      k_atm: 'एटीएम / बैंक',
+      k_shop: 'दुकानें',
+      stayNear: 'आज रात यहीं पास में ठहरें',
       grpHours: 'घंटे', grpDays: 'दिन / यात्रा',
       h2: '2 घंटे', h4: '4 घंटे', h6: '6 घंटे', h8: '8 घंटे',
       d1: '1 दिन (पूरा दिन)', d2: '2 दिन', d3: '3 दिन', w1: '1 सप्ताह (पूरी यात्रा)',
@@ -126,6 +165,19 @@
       signsText: 'హంపిలో బోర్డులు చాలా తక్కువ. ప్రతి ముద్రిత బోర్డులో QR కోడ్ ఉంటుంది. స్కాన్ చేస్తే ఆ స్మారకం వివరాలు తెరుచుకుంటాయి.',
       signsBtn: 'ముద్రించదగిన బోర్డులను తెరవండి', error: 'ఏదో లోపం జరిగింది. సర్వర్ నడుస్తోందా?',
       needsInternet: 'ఇంటర్నెట్ అవసరం',
+      nearbyTitle: 'సమీపంలో బస, భోజనం మరియు నీరు',
+      stayTonight: 'ఈ రాత్రి ఎక్కడ బస చేయాలి (చివరి ప్రదేశం దగ్గర)',
+      findNearby: 'ఇక్కడ సమీప ప్రదేశాలను వెతకండి',
+      nearbyNote: 'OpenStreetMap నుండి ప్రత్యక్ష సమాచారం. మేము తనిఖీ చేయలేదు: వెళ్లే ముందు ఫోన్ చేసి నిర్ధారించుకోండి.',
+      nearbyNone: 'ఇక్కడ దగ్గరలో OpenStreetMap లో ఏమీ లేదు. పైన ఉన్న Google Maps లింక్‌లను ప్రయత్నించండి.',
+      nearbyFail: 'ఇప్పుడు ప్రత్యక్ష సమాచారం రాలేదు. పైన ఉన్న Google Maps లింక్‌లు పనిచేస్తాయి.',
+      k_stay: 'బస',
+      k_food: 'భోజనం',
+      k_water: 'తాగునీరు',
+      k_toilet: 'మరుగుదొడ్లు',
+      k_atm: 'ఏటీఎం / బ్యాంక్',
+      k_shop: 'దుకాణాలు',
+      stayNear: 'ఈ రాత్రి ఇక్కడ దగ్గర బస చేయండి',
       grpHours: 'గంటలు', grpDays: 'రోజులు / పర్యటన',
       h2: '2 గం', h4: '4 గం', h6: '6 గం', h8: '8 గం',
       d1: '1 రోజు (పూర్తి రోజు)', d2: '2 రోజులు', d3: '3 రోజులు', w1: '1 వారం (పూర్తి పర్యటన)',
@@ -656,7 +708,8 @@
       '<span class="tag uncertain">' + esc(t('uncertain')) + '</span></div>' +
       (lang !== 'en' ? '<p class="muted small">' + esc(t('factsEnglish')) + '</p>' : '') +
       '<ul class="facts">' + s.facts.map(factHTML).join('') + '</ul>' +
-      '<div class="tipbox"><b>' + esc(t('tip')) + '</b> ' + esc(s.tip) + '</div>';
+      '<div class="tipbox"><b>' + esc(t('tip')) + '</b> ' + esc(s.tip) + '</div>' +
+      nearbyHTML('siteNearby', t('nearbyTitle'), s.lat, s.lon);
 
     $('sheet').hidden = false;
 
@@ -740,6 +793,22 @@
   }
 
   // ---------- plan ----------
+  function stars(rating) {
+    if (!rating) return '';
+    var full = Math.floor(rating);
+    var half = (rating - full) >= 0.3 ? 1 : 0;
+    var empty = 5 - full - half;
+    var s = '';
+    for (var i = 0; i < full; i++) s += '★';
+    if (half) s += '½';
+    for (var i = 0; i < empty; i++) s += '☆';
+    return s;
+  }
+  function reviewCount(n) {
+    if (!n) return '';
+    if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+    return '' + n;
+  }
   function renderStarts(selectYou) {
     var sel = $('planStart'), current = selectYou ? 'you' : sel.value;
     sel.innerHTML = Object.keys(starts).map(function (k) {
@@ -776,14 +845,25 @@
       }
       html += '<li><button data-site="' + s.id + '"><span class="n">' + (i + 1) + '</span>' +
         '<span class="site-text"><b>' + esc(name(s)) + '</b>' +
+        (s.rating ? '<span class="rating"><span class="stars">' + stars(s.rating) + '</span> ' + s.rating + '<span class="review-count">(' + reviewCount(s.reviews) + ')</span></span>' : '') +
         '<small>+' + hm(s.arrive_min) + ' &middot; ' + s.leg_km + ' km &middot; ' + s.visit_min + ' ' + esc(t('atSite')) + '</small></span></button></li>';
+      if (isMultiDay && ((i + 1) % perDay === 0 || i === p.stops.length - 1)) {
+        html += '<li class="day-stay"><span>' + esc(t('stayNear')) + '</span> ' +
+          '<a class="chip" target="_blank" rel="noopener" href="' + mapsLink('stay', s.lat, s.lon) + '">' + esc(t('k_stay')) + ' &#8599;</a> ' +
+          '<a class="chip" target="_blank" rel="noopener" href="' + mapsLink('food', s.lat, s.lon) + '">' + esc(t('k_food')) + ' &#8599;</a></li>';
+      }
     });
     html += '</ol>';
     if (p.skipped.length) {
       html += '<div class="skipped"><b>' + esc(t('skipped')) + '</b><small>' + esc(t('tapAdd')) + '</small><div>' +
         p.skipped.map(function (s) {
-          return '<button class="chip" data-must="' + s.id + '">+ ' + esc(name(s)) + '</button>';
+          return '<button class="chip" data-must="' + s.id + '">+ ' + esc(name(s)) +
+            (s.rating ? ' <span class="chip-rating">' + s.rating + '★</span>' : '') + '</button>';
         }).join('') + '</div></div>';
+    }
+    if (p.stops.length) {
+      var last = p.stops[p.stops.length - 1];
+      html += nearbyHTML('planNearby', t('stayTonight'), last.lat, last.lon);
     }
     $('planOut').innerHTML = html;
 
@@ -794,6 +874,73 @@
     p.stops.forEach(function (s, i) { markers[s.id].setIcon(pin(byId[s.id], i + 1)); });
     if (line.length > 1) map.fitBounds(routeLayer.getBounds(), { padding: [30, 30] });
   }
+
+  // ---------- stays, food and water nearby (live OpenStreetMap data) ----------
+  var NEAR_KINDS = ['stay', 'food', 'water', 'toilet', 'atm', 'shop'];
+  var NEAR_SEARCH = { stay: 'hotels', food: 'restaurants', water: 'drinking water', toilet: 'public toilets', atm: 'ATM', shop: 'shops' };
+  var NEAR_COLOR = { stay: '#7b3f99', food: '#c0392b', water: '#2471a3', toilet: '#566573', atm: '#1e8449', shop: '#b7950b' };
+  var nearbyLayer = null;
+
+  function mapsLink(kind, lat, lon) {
+    return 'https://www.google.com/maps/search/?api=1&query=' +
+      encodeURIComponent(NEAR_SEARCH[kind] + ' near ' + lat.toFixed(5) + ',' + lon.toFixed(5));
+  }
+  function nearbyHTML(boxId, title, lat, lon) {
+    return '<div class="nearby"><h3>' + esc(title) + '</h3>' +
+      '<div class="near-links">' + NEAR_KINDS.map(function (k) {
+        return '<a class="chip" target="_blank" rel="noopener" href="' + mapsLink(k, lat, lon) + '">' + esc(t('k_' + k)) + ' &#8599;</a>';
+      }).join('') + '</div>' +
+      '<button class="btn ghost" data-nearby="' + lat + ',' + lon + '" data-box="' + boxId + '">' + esc(t('findNearby')) + '</button>' +
+      '<div id="' + boxId + '" class="near-out"></div></div>';
+  }
+  function metres(m) { return m < 1000 ? m + ' m' : (m / 1000).toFixed(1) + ' km'; }
+  function showNearbyOnMap(places) {
+    if (!nearbyLayer) nearbyLayer = L.layerGroup().addTo(map);
+    nearbyLayer.clearLayers();
+    places.forEach(function (p) {
+      L.circleMarker([p.lat, p.lon], { radius: 7, color: '#fff', weight: 2, fillColor: NEAR_COLOR[p.kind], fillOpacity: 0.95 })
+        .bindPopup('<b>' + esc(p.name || t('k_' + p.kind)) + '</b><br>' + esc(t('k_' + p.kind)) + ' &middot; ' + metres(p.distance_m))
+        .addTo(nearbyLayer);
+    });
+  }
+  function loadNearby(lat, lon, box) {
+    if (!box) return;
+    box.innerHTML = '<p class="muted small">...</p>';
+    getJSON('/api/nearby?lat=' + lat + '&lon=' + lon).then(function (r) {
+      if (r.error || !r.live) { box.innerHTML = '<p class="muted small">' + esc(t('nearbyFail')) + '</p>'; return; }
+      if (!r.places.length) { box.innerHTML = '<p class="muted small">' + esc(t('nearbyNone')) + '</p>'; return; }
+      showNearbyOnMap(r.places);
+      var html = '';
+      NEAR_KINDS.forEach(function (k) {
+        var list = r.places.filter(function (p) { return p.kind === k; });
+        if (!list.length) return;
+        html += '<div class="near-group"><b><span class="dot" style="background:' + NEAR_COLOR[k] + '"></span>' + esc(t('k_' + k)) + '</b><ul>' +
+          list.map(function (p) {
+            return '<li><button class="near-place" data-place="' + p.lat + ',' + p.lon + '">' + esc(p.name || t('k_' + k)) +
+              ' <small class="muted">' + metres(p.distance_m) + '</small></button>' +
+              (p.phone ? ' <a class="small" href="tel:' + esc(p.phone.replace(/\s/g, '')) + '">' + esc(p.phone) + '</a>' : '') + '</li>';
+          }).join('') + '</ul></div>';
+      });
+      box.innerHTML = html + '<p class="muted small">' + esc(t('nearbyNote')) + '</p>';
+    }).catch(function () {
+      box.innerHTML = '<p class="muted small">' + esc(t('nearbyFail')) + '</p>';
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-nearby]');
+    if (b) {
+      var c = b.dataset.nearby.split(',');
+      loadNearby(+c[0], +c[1], $(b.dataset.box));
+      return;
+    }
+    var pl = e.target.closest('[data-place]');
+    if (pl) {
+      var q = pl.dataset.place.split(',');
+      if (!$('sheet').hidden) closeSheet();
+      showTab('map');
+      map.setView([+q[0], +q[1]], 17);
+    }
+  });
 
   // ---------- wiring ----------
   function fromHash() {

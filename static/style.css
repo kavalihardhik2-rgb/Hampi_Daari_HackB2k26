@@ -341,3 +341,20 @@ body[data-tab="map"] .side { flex: none; }
 .cam-btn { font-size: 15px; padding: 8px 10px; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---------- stays, food and water nearby ---------- */
+.nearby { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); }
+.nearby h3 { font-size: 16px; margin: 0 0 8px; }
+.near-links { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.near-links .chip { text-decoration: none; color: var(--text); font-size: 13px; padding: 5px 10px; }
+.near-out { margin-top: 10px; }
+.near-group { margin-bottom: 10px; }
+.near-group ul { list-style: none; margin: 4px 0 0; padding: 0; }
+.near-group li { padding: 4px 0; border-bottom: 1px solid var(--line); }
+.near-place { background: none; border: 0; padding: 0; text-align: left; color: inherit; }
+.near-place:hover { text-decoration: underline; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+body.large-text .nearby h3 { font-size: 19px; }
+body.large-text .near-links .chip { font-size: 15px; }
+.day-stay { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 4px 0 10px; padding: 6px 10px; border-radius: 8px; background: var(--paper); font-size: 13px; color: var(--muted); }
+.day-stay .chip { text-decoration: none; color: var(--text); font-size: 12px; padding: 4px 9px; }

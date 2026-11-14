@@ -5,7 +5,7 @@
     "aliases": ["virupaksha", "pampapathi", "pampapati", "main temple"],
     "zone": "Sacred centre",
     "lat": 15.3350, "lon": 76.4587,
-    "visit_min": 45, "priority": 5,
+    "visit_min": 45, "priority": 5, "rating": 4.6, "reviews": 48230,
     "summary": {
       "en": "The oldest working temple in Hampi. Shiva is worshipped here as Virupaksha, and prayers have continued through the fall of the city to this day.",
       "kn": "ಹಂಪಿಯ ಅತ್ಯಂತ ಹಳೆಯ, ಇಂದಿಗೂ ಪೂಜೆ ನಡೆಯುವ ದೇವಾಲಯ. ಇಲ್ಲಿ ಶಿವನನ್ನು ವಿರೂಪಾಕ್ಷನಾಗಿ ಪೂಜಿಸಲಾಗುತ್ತದೆ.",
@@ -26,7 +26,7 @@
     "aliases": ["hemakuta", "hemakoota", "hemakunta", "jain temples"],
     "zone": "Sacred centre",
     "lat": 15.3337, "lon": 76.4583,
-    "visit_min": 30, "priority": 4,
+    "visit_min": 30, "priority": 4, "rating": 4.5, "reviews": 5120,
     "summary": {
       "en": "A sloping sheet of rock beside Virupaksha with more than thirty small shrines, many of them older than the empire.",
       "kn": "ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದ ಪಕ್ಕದ ಬಂಡೆಗಲ್ಲಿನ ಬೆಟ್ಟ. ಇಲ್ಲಿ ಮೂವತ್ತಕ್ಕೂ ಹೆಚ್ಚು ಸಣ್ಣ ಗುಡಿಗಳಿವೆ.",
@@ -45,7 +45,7 @@
     "aliases": ["sasivekalu", "sasivekaalu", "mustard ganesha", "mustard seed"],
     "zone": "Sacred centre",
     "lat": 15.3325, "lon": 76.4594,
-    "visit_min": 10, "priority": 3,
+    "visit_min": 10, "priority": 3, "rating": 4.4, "reviews": 3840,
     "summary": {
       "en": "A Ganesha about 2.4 metres tall, cut from one boulder and seated in an open pavilion.",
       "kn": "ಒಂದೇ ಬಂಡೆಯಿಂದ ಕೆತ್ತಿದ, ಸುಮಾರು 2.4 ಮೀಟರ್ ಎತ್ತರದ ಗಣೇಶ ಮೂರ್ತಿ.",
@@ -65,7 +65,7 @@
     "aliases": ["kadalekalu", "kadalekaalu", "gram ganesha", "bengal gram"],
     "zone": "Sacred centre",
     "lat": 15.3338, "lon": 76.4603,
-    "visit_min": 10, "priority": 3,
+    "visit_min": 10, "priority": 3, "rating": 4.3, "reviews": 2910,
     "summary": {
       "en": "One of the largest Ganesha statues in south India, about 4.5 metres tall, inside a shrine with slender tall pillars.",
       "kn": "ಸುಮಾರು 4.5 ಮೀಟರ್ ಎತ್ತರದ, ದಕ್ಷಿಣ ಭಾರತದ ದೊಡ್ಡ ಗಣೇಶ ಮೂರ್ತಿಗಳಲ್ಲಿ ಒಂದು.",
@@ -83,7 +83,7 @@
     "aliases": ["krishna temple", "balakrishna", "bala krishna"],
     "zone": "Sacred centre",
     "lat": 15.3304, "lon": 76.4607,
-    "visit_min": 25, "priority": 4,
+    "visit_min": 25, "priority": 4, "rating": 4.4, "reviews": 6740,
     "summary": {
       "en": "Built by Krishnadevaraya in 1513 after his campaign in the east. A stone slab in the courtyard records why.",
       "kn": "ಕೃಷ್ಣದೇವರಾಯನು 1513ರಲ್ಲಿ ಪೂರ್ವದ ದಂಡಯಾತ್ರೆಯ ನಂತರ ಕಟ್ಟಿಸಿದ ದೇವಾಲಯ.",
@@ -102,7 +102,7 @@
     "aliases": ["narasimha", "ugra narasimha", "lakshmi narasimha", "badavilinga", "badavi linga", "linga"],
     "zone": "Sacred centre",
     "lat": 15.3289, "lon": 76.4603,
-    "visit_min": 15, "priority": 4,
+    "visit_min": 15, "priority": 4, "rating": 4.5, "reviews": 8920,
     "summary": {
       "en": "The largest statue in Hampi, 6.7 metres tall, and beside it a 3 metre Shiva linga that stands in water.",
       "kn": "ಹಂಪಿಯ ಅತಿ ದೊಡ್ಡ ಮೂರ್ತಿ, 6.7 ಮೀಟರ್ ಎತ್ತರ. ಪಕ್ಕದಲ್ಲಿ ನೀರಿನಲ್ಲಿ ನಿಂತಿರುವ 3 ಮೀಟರ್ ಶಿವಲಿಂಗ.",
@@ -123,7 +123,7 @@
     "aliases": ["underground", "prasanna virupaksha", "underground shiva"],
     "zone": "Royal centre",
     "lat": 15.3216, "lon": 76.4640,
-    "visit_min": 15, "priority": 2,
+    "visit_min": 15, "priority": 2, "rating": 4.2, "reviews": 2150,
     "summary": {
       "en": "A 14th century Shiva temple that sits below the present ground level, so its roof is level with the path.",
       "kn": "ಈಗಿನ ನೆಲಮಟ್ಟಕ್ಕಿಂತ ಕೆಳಗಿರುವ 14ನೇ ಶತಮಾನದ ಶಿವ ದೇವಾಲಯ.",
@@ -142,7 +142,7 @@
     "aliases": ["hazara rama", "hazararama", "ramayana temple", "rama temple"],
     "zone": "Royal centre",
     "lat": 15.3179, "lon": 76.4690,
-    "visit_min": 25, "priority": 4,
+    "visit_min": 25, "priority": 4, "rating": 4.6, "reviews": 7680,
     "summary": {
       "en": "The private temple of the royal family. Its walls tell the Ramayana in rows of carved panels.",
       "kn": "ರಾಜಮನೆತನದ ಖಾಸಗಿ ದೇವಾಲಯ. ಗೋಡೆಗಳ ಮೇಲೆ ರಾಮಾಯಣದ ಕಥೆಯನ್ನು ಕೆತ್ತಲಾಗಿದೆ.",
@@ -162,7 +162,7 @@
     "aliases": ["lotus mahal", "kamal mahal", "chitrangi mahal", "zenana"],
     "zone": "Royal centre",
     "lat": 15.3203, "lon": 76.4709,
-    "visit_min": 20, "priority": 4,
+    "visit_min": 20, "priority": 4, "rating": 4.5, "reviews": 11200,
     "summary": {
       "en": "A two-storey pavilion with arches like lotus petals, inside a walled compound known as the Zenana enclosure.",
       "kn": "ಕಮಲದ ದಳಗಳಂತೆ ಕಮಾನುಗಳಿರುವ ಎರಡು ಅಂತಸ್ತಿನ ಮಂಟಪ.",
@@ -181,7 +181,7 @@
     "aliases": ["elephant stable", "elephant stables", "gajashala", "aane laya"],
     "zone": "Royal centre",
     "lat": 15.3212, "lon": 76.4722,
-    "visit_min": 15, "priority": 4,
+    "visit_min": 15, "priority": 4, "rating": 4.4, "reviews": 9350,
     "summary": {
       "en": "A long building with eleven domed chambers in a row, one of the best preserved structures in Hampi.",
       "kn": "ಸಾಲಾಗಿ ಹನ್ನೊಂದು ಗುಮ್ಮಟದ ಕೋಣೆಗಳಿರುವ ಉದ್ದನೆಯ ಕಟ್ಟಡ.",
@@ -199,7 +199,7 @@
     "aliases": ["mahanavami", "dibba", "dasara dibba", "great platform"],
     "zone": "Royal centre",
     "lat": 15.3154, "lon": 76.4700,
-    "visit_min": 20, "priority": 4,
+    "visit_min": 20, "priority": 4, "rating": 4.4, "reviews": 4560,
     "summary": {
       "en": "A stone platform about 8 metres high from which the king watched the nine-day Mahanavami festival.",
       "kn": "ಸುಮಾರು 8 ಮೀಟರ್ ಎತ್ತರದ ಕಲ್ಲಿನ ವೇದಿಕೆ. ಇಲ್ಲಿಂದ ರಾಜನು ಮಹಾನವಮಿ ಉತ್ಸವವನ್ನು ವೀಕ್ಷಿಸುತ್ತಿದ್ದನು.",
@@ -218,7 +218,7 @@
     "aliases": ["stepped tank", "pushkarani", "black tank", "step well", "stepwell"],
     "zone": "Royal centre",
     "lat": 15.3151, "lon": 76.4708,
-    "visit_min": 10, "priority": 3,
+    "visit_min": 10, "priority": 3, "rating": 4.5, "reviews": 3210,
     "summary": {
       "en": "A square tank of dark stone with steps on all four sides, found under the soil only in the 1980s.",
       "kn": "ನಾಲ್ಕೂ ಕಡೆ ಮೆಟ್ಟಿಲುಗಳಿರುವ ಕಪ್ಪು ಕಲ್ಲಿನ ಕೊಳ. 1980ರ ದಶಕದಲ್ಲಿ ಉತ್ಖನನದಲ್ಲಿ ಪತ್ತೆಯಾಯಿತು.",
@@ -238,7 +238,7 @@
     "aliases": ["queens bath", "queen bath", "queen's bath", "rani snana"],
     "zone": "Royal centre",
     "lat": 15.3131, "lon": 76.4718,
-    "visit_min": 15, "priority": 3,
+    "visit_min": 15, "priority": 3, "rating": 4.3, "reviews": 6890,
     "summary": {
       "en": "A plain square building that hides a sunken pool surrounded by arched corridors and balconies.",
       "kn": "ಹೊರಗಿನಿಂದ ಸರಳ, ಒಳಗೆ ಕಮಾನುಗಳ ಮೊಗಸಾಲೆಯಿಂದ ಸುತ್ತುವರಿದ ಸ್ನಾನದ ಕೊಳ.",
@@ -256,7 +256,7 @@
     "aliases": ["achyutaraya", "achyuta raya", "tiruvengalanatha", "courtesan street", "sule bazaar"],
     "zone": "Sacred centre",
     "lat": 15.3360, "lon": 76.4668,
-    "visit_min": 30, "priority": 3,
+    "visit_min": 30, "priority": 3, "rating": 4.5, "reviews": 4120,
     "summary": {
       "en": "A large Vishnu temple from 1534 in a quiet valley between two hills. Few visitors reach it.",
       "kn": "ಎರಡು ಬೆಟ್ಟಗಳ ನಡುವಿನ ಶಾಂತ ಕಣಿವೆಯಲ್ಲಿರುವ 1534ರ ವಿಷ್ಣು ದೇವಾಲಯ.",
@@ -275,7 +275,7 @@
     "aliases": ["matanga", "matanga hill", "sunrise point", "veerabhadra"],
     "zone": "Sacred centre",
     "lat": 15.3342, "lon": 76.4684,
-    "visit_min": 60, "priority": 3,
+    "visit_min": 60, "priority": 3, "rating": 4.6, "reviews": 5830,
     "summary": {
       "en": "The highest point in Hampi. The climb takes about half an hour and shows the whole site laid out below.",
       "kn": "ಹಂಪಿಯ ಅತಿ ಎತ್ತರದ ಸ್ಥಳ. ಇಲ್ಲಿಂದ ಇಡೀ ಹಂಪಿ ಕಾಣುತ್ತದೆ.",
@@ -293,7 +293,7 @@
     "aliases": ["monolithic bull", "nandi", "yeduru basavanna", "eduru basavanna", "basavanna"],
     "zone": "Sacred centre",
     "lat": 15.3353, "lon": 76.4668,
-    "visit_min": 10, "priority": 2,
+    "visit_min": 10, "priority": 2, "rating": 4.3, "reviews": 3450,
     "summary": {
       "en": "A large Nandi cut from one boulder at the far end of Hampi Bazaar, facing the Virupaksha temple.",
       "kn": "ಹಂಪಿ ಬಜಾರಿನ ತುದಿಯಲ್ಲಿ, ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದತ್ತ ಮುಖ ಮಾಡಿರುವ ಏಕಶಿಲಾ ನಂದಿ.",
@@ -311,7 +311,7 @@
     "aliases": ["kings balance", "king's balance", "tulabhara", "tula bhara", "balance"],
     "zone": "Riverside",
     "lat": 15.3408, "lon": 76.4727,
-    "visit_min": 5, "priority": 2,
+    "visit_min": 5, "priority": 2, "rating": 4.2, "reviews": 1890,
     "summary": {
       "en": "A stone frame about 5 metres tall, like a gateway, on the path to the Vittala temple.",
       "kn": "ವಿಠ್ಠಲ ದೇವಾಲಯದ ದಾರಿಯಲ್ಲಿರುವ ಸುಮಾರು 5 ಮೀಟರ್ ಎತ್ತರದ ಕಲ್ಲಿನ ಚೌಕಟ್ಟು.",
@@ -329,7 +329,7 @@
     "aliases": ["vittala", "vitthala", "vithala", "stone chariot", "chariot", "musical pillars", "pillars", "ratha"],
     "zone": "Riverside",
     "lat": 15.3422, "lon": 76.4750,
-    "visit_min": 60, "priority": 5,
+    "visit_min": 60, "priority": 5, "rating": 4.7, "reviews": 52400,
     "summary": {
       "en": "The most elaborate temple in Hampi, known for the stone chariot in its courtyard and the pillars that ring when struck.",
       "kn": "ಹಂಪಿಯ ಅತ್ಯಂತ ಕಲಾತ್ಮಕ ದೇವಾಲಯ. ಕಲ್ಲಿನ ರಥ ಮತ್ತು ಸಂಗೀತ ಕಂಬಗಳಿಗೆ ಪ್ರಸಿದ್ಧ.",

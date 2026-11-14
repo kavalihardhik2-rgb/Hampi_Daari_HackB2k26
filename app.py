@@ -9,7 +9,7 @@ import socket
 
 from flask import Flask, abort, jsonify, render_template, request
 
-from hampi import guide, planner
+from hampi import guide, nearby, planner
 from hampi.data import SITE_BY_ID, SITES, STARTS
 
 try:
@@ -112,6 +112,22 @@ def api_plan():
         return jsonify({"error": "Could not read the plan request."}), 400
     result["start"] = start
     return jsonify(result)
+
+
+@app.get("/api/nearby")
+def api_nearby():
+    """Stays, food, water, toilets, ATMs and shops near a monument or a point."""
+    site = request.args.get("site")
+    try:
+        if site:
+            lat, lon = SITE_BY_ID[site]["lat"], SITE_BY_ID[site]["lon"]
+        else:
+            lat, lon = float(request.args["lat"]), float(request.args["lon"])
+    except (KeyError, ValueError):
+        return jsonify({"error": "Give a monument or a position."}), 400
+    if nearby.distance_m(lat, lon, 15.327, 76.467) > 30000:
+        return jsonify({"error": "That position is too far from Hampi."}), 400
+    return jsonify({"lat": lat, "lon": lon, **nearby.nearby(lat, lon)})
 
 
 if __name__ == "__main__":

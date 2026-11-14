@@ -1,5 +1,5 @@
 // Service worker for Hampi Daari: cache-first with network fallback
-const CACHE_NAME = 'hampi-daari-v5';
+const CACHE_NAME = 'hampi-daari-v6';
 const PRECACHE_URLS = [
   '/',
   '/signs',

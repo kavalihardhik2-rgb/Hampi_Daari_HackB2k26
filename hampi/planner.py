@@ -110,6 +110,7 @@ def plan(start, sites, minutes, mode="walk", must=()):
             "id": s["id"], "name": s["name"], "lat": s["lat"], "lon": s["lon"],
             "leg_km": round(leg_km, 2), "arrive_min": round(clock),
             "visit_min": s["visit_min"], "tip": s.get("tip", ""),
+            "rating": s.get("rating", 0), "reviews": s.get("reviews", 0),
         })
         clock += s["visit_min"]
         here = s
@@ -119,7 +120,8 @@ def plan(start, sites, minutes, mode="walk", must=()):
         "minutes_used": round(clock), "distance_km": round(dist, 1),
         "over_budget": clock > minutes + 0.5,
         "stops": stops,
-        "skipped": [{"id": s["id"], "name": s["name"]} for s in
-                    sorted(left, key=lambda s: -s["priority"])],
+        "skipped": [{"id": s["id"], "name": s["name"],
+                     "rating": s.get("rating", 0), "reviews": s.get("reviews", 0)}
+                    for s in sorted(left, key=lambda s: -s["priority"])],
         "total_sites": len(sites),
     }
