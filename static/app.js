@@ -48,7 +48,7 @@
       audiobook: 'Audio Guide & Story', briefAudio: '⚡ Brief Audio', fullAudio: '📖 Full Story / Audiobook',
       playBrief: 'Play Brief Audio', playFull: 'Play Full Audiobook', pause: 'Pause', resume: 'Resume', replay: 'Replay',
       playing: 'Playing narrative...', paused: 'Audio paused', audioReady: 'Tap play to listen',
-      scannedQr: '📍 Scanned from Signboard', voiceSiri: 'English voice (device default)'
+      scannedQr: '📍 Scanned from Signboard', voiceSiri: 'Device default voice', audioLanguage: 'Audiobook language', audioEnglishNote: 'Detailed historical facts are currently narrated in English.'
     },
     kn: {
       tagline: 'ಪ್ರತಿ ಸ್ಮಾರಕ. ಪ್ರತಿ ಮಾಹಿತಿಗೂ ಆಧಾರ.',
@@ -209,6 +209,26 @@
     matanga: "మాతంగ కొండ", bull: "ఏకశిలా నంది",
     kingsbalance: "రాజు తులాభారం", vittala: "విజయ విఠల దేవాలయం"
   };
+  var TE_SUMMARIES = {
+    virupaksha: 'హంపిలో నేటికీ పూజలు జరిగే అత్యంత పురాతన ఆలయం ఇది. ఇక్కడ శివుడిని విరూపాక్షుడిగా కొలుస్తారు; నగరం పతనమైన తర్వాత కూడా పూజలు కొనసాగాయి.',
+    hemakuta: 'విరూపాక్ష ఆలయం పక్కన ఉన్న ఈ రాతి కొండపై ముప్పైకి పైగా చిన్న ఆలయాలు ఉన్నాయి. వాటిలో చాలా విజయనగర సామ్రాజ్యానికి ముందువి.',
+    sasivekalu: 'ఒకే రాతిబండలో చెక్కిన, సుమారు 2.4 మీటర్ల ఎత్తైన గణేశ విగ్రహం ఓపెన్ మండపంలో ఉంది.',
+    kadalekalu: 'దక్షిణ భారతదేశంలోని అతిపెద్ద గణేశ విగ్రహాల్లో ఇది ఒకటి. సుమారు 4.5 మీటర్ల ఎత్తైన విగ్రహం సన్నని ఎత్తైన స్తంభాలున్న ఆలయంలో ఉంది.',
+    krishna: 'తూర్పు దండయాత్ర తర్వాత కృష్ణదేవరాయలు 1513లో ఈ ఆలయాన్ని నిర్మించారు. ప్రాంగణంలోని శిలాఫలకం నిర్మాణ కారణాన్ని తెలియజేస్తుంది.',
+    narasimha: 'హంపిలో అతిపెద్ద విగ్రహం ఇది; 6.7 మీటర్ల ఎత్తు ఉంటుంది. పక్కనే నీటిలో నిలిచే 3 మీటర్ల శివలింగం ఉంది.',
+    underground: '14వ శతాబ్దపు ఈ శివాలయం ప్రస్తుత నేలమట్టం కంటే దిగువన ఉంది. అందువల్ల దీని పైకప్పు దారికి సమానంగా కనిపిస్తుంది.',
+    hazararama: 'ఇది రాజకుటుంబం వ్యక్తిగత ఆలయం. గోడలపై వరుసలుగా చెక్కిన శిల్పాలు రామాయణ కథలను వివరిస్తాయి.',
+    lotusmahal: 'జెనానా ప్రాంగణంగా పిలిచే గోడల ఆవరణలో, తామర రేకుల్లాంటి వంపులతో రెండు అంతస్తుల మండపం ఉంది.',
+    elephantstables: 'వరుసగా ఉన్న పదకొండు గుమ్మట గదులతో కూడిన ఈ పొడవైన భవనం హంపిలో బాగా సంరక్షించబడిన నిర్మాణాల్లో ఒకటి.',
+    mahanavami: 'సుమారు 8 మీటర్ల ఎత్తైన రాతి వేదిక ఇది. ఇక్కడి నుంచి రాజు తొమ్మిది రోజుల మహానవమి ఉత్సవాన్ని వీక్షించేవాడు.',
+    steppedtank: 'నాలుగు వైపులా మెట్లున్న నల్లరాతి చతురస్రాకార కొలను ఇది. 1980లలో నేలకింద బయటపడింది.',
+    queensbath: 'బయటకు సాధారణంగా కనిపించే ఈ చతురస్రాకార భవనంలో, వంపుల దారులు మరియు బాల్కనీలతో చుట్టబడిన లోతైన కొలను ఉంది.',
+    achyutaraya: '1534లో నిర్మించిన ఈ పెద్ద విష్ణు ఆలయం రెండు కొండల మధ్య నిశ్శబ్ద లోయలో ఉంది. ఇక్కడికి కొద్దిమంది సందర్శకులే వస్తారు.',
+    matanga: 'హంపిలోని ఎత్తైన ప్రదేశం ఇది. సుమారు అరగంట ఎక్కితే మొత్తం చారిత్రక ప్రదేశం కింద కనిపిస్తుంది.',
+    bull: 'హంపి బజార్ చివర, విరూపాక్ష ఆలయం వైపు చూస్తూ ఒకే రాతిలో చెక్కిన పెద్ద నంది విగ్రహం ఉంది.',
+    kingsbalance: 'విజయ విఠ్ఠల ఆలయానికి వెళ్లే దారిలో, గుమ్మంలా కనిపించే సుమారు 5 మీటర్ల ఎత్తైన రాతి నిర్మాణం ఉంది.',
+    vittala: 'హంపిలో అత్యంత వైభవమైన ఆలయాల్లో ఇది ఒకటి. ప్రాంగణంలోని రాతి రథం, మోగే శబ్దం చేసే స్తంభాలు ప్రసిద్ధి.'
+  };
 
   // ---------- state ----------
   var sites = [], starts = {}, byId = {};
@@ -238,6 +258,7 @@
     });
   }
   function name(s) { return (lang === 'te' && s && s.id && TE_NAMES[s.id]) || (s && s.name && (s.name[lang] || s.name.en)) || ''; }
+  function summary(s, language) { return (language === 'te' && TE_SUMMARIES[s.id]) || (s.summary && (s.summary[language] || s.summary.en)) || ''; }
   function hm(min) {
     var h = Math.floor(min / 60), m = Math.round(min % 60);
     return (h ? h + ' h ' : '') + (m || !h ? m + ' min' : '');
@@ -366,7 +387,7 @@
       return '<li class="zone">' + esc(z) + '</li>' + zones[z].map(function (s) {
         return '<li><button class="site-row' + (seen[s.id] ? ' seen' : '') + '" data-site="' + s.id + '">' +
           '<span class="dot">' + (seen[s.id] ? '&#10003;' : '') + '</span>' +
-          '<span class="site-text"><b>' + esc(name(s)) + '</b><small>' + esc(s.summary[lang] || s.summary.en) + '</small></span>' +
+          '<span class="site-text"><b>' + esc(name(s)) + '</b><small>' + esc(summary(s, lang)) + '</small></span>' +
           '<span class="mins">' + s.visit_min + ' min</span></button></li>';
       }).join('');
     }).join('');
@@ -388,16 +409,18 @@
     }
   }
 
+  var audioLang = load('audio-language', 'en');
   function getBestVoice() {
     if (!window.speechSynthesis) return null;
     var voices = cachedVoices.length ? cachedVoices : (speechSynthesis.getVoices() || []);
     if (!voices || !voices.length) return null;
 
-    voices = voices.filter(function (v) { return /^en(?:-|$)/i.test(v.lang || ''); });
+    var expected = (SPEECH_LANG[audioLang] || 'en-IN').split('-')[0].toLowerCase();
+    voices = voices.filter(function (v) { return (v.lang || '').toLowerCase().split('-')[0] === expected; });
     if (!voices.length) return null;
 
     function score(v) {
-      return (v.lang || '').toLowerCase() === 'en-in' ? 1 : 0;
+      return (v.lang || '').toLowerCase() === (SPEECH_LANG[audioLang] || '').toLowerCase() ? 1 : 0;
     }
 
     var sorted = voices.slice().sort(function (a, b) { return score(b) - score(a); });
@@ -415,8 +438,8 @@
   }
 
   function buildAudiobookNarrative(site, isFull, targetLang) {
-    var siteName = name(site);
-    var sum = site.summary.en || site.summary[targetLang];
+    var siteName = (site.name && (site.name[targetLang] || site.name.en)) || name(site);
+    var sum = summary(site, targetLang);
     var tip = site.tip || '';
 
     if (!isFull) {
@@ -493,7 +516,7 @@
     audioGuide.sentenceIndex = 0;
     var s = byId[siteId];
     if (s) {
-      var raw = buildAudiobookNarrative(s, mode === 'full', lang);
+      var raw = buildAudiobookNarrative(s, mode === 'full', audioLang);
       var all = [];
       raw.forEach(function (r) { all = all.concat(splitIntoSentences(r)); });
       audioGuide.sentences = all;
@@ -524,7 +547,7 @@
       u.voice = voice;
       u.lang = voice.lang;
     } else {
-      u.lang = 'en-IN';
+      u.lang = SPEECH_LANG[audioLang] || 'en-IN';
     }
     u.rate = 0.95;
     u.pitch = 1.02;
@@ -641,7 +664,7 @@
     initAudioForSite(id, 'brief');
 
     var isFromQR = location.hash === '#site/' + id;
-    var summary = s.summary[lang] || s.summary.en;
+    var summaryText = summary(s, lang);
     var bestVoice = getBestVoice();
     var voiceName = getVoiceLabel(bestVoice);
 
@@ -649,7 +672,7 @@
       '<div class="zone-tag">' + esc(s.zone) + '</div>' +
       '<h2>' + esc(name(s)) + '</h2>' +
       (lang !== 'en' ? '<div class="alt-name">' + esc(s.name.en) + '</div>' : '') +
-      '<p class="lead">' + esc(summary) + '</p>' +
+      '<p class="lead">' + esc(summaryText) + '</p>' +
       (isFromQR ? '<div class="ab-qr-pill">' + esc(t('scannedQr')) + '</div>' : '') +
       '<div class="audiobook-card" id="abCard">' +
         '<div class="ab-header">' +
@@ -658,6 +681,10 @@
             '<div>' +
               '<div class="ab-heading">' + esc(t('audiobook')) + '</div>' +
               '<div class="ab-sub" id="abVoiceName">' + esc(voiceName) + '</div>' +
+              '<label for="abAudioLang">' + esc(t('audioLanguage')) + '</label>' +
+              '<select id="abAudioLang" class="ab-voice-picker">' +
+                '<option value="en">English</option><option value="kn">ಕನ್ನಡ</option><option value="hi">हिन्दी</option><option value="te">తెలుగు</option>' +
+              '</select>' +
             '</div>' +
           '</div>' +
           '<div class="ab-mode-pills">' +
@@ -684,6 +711,7 @@
       '<span class="tag tradition">' + esc(t('tradition')) + '</span>' +
       '<span class="tag uncertain">' + esc(t('uncertain')) + '</span></div>' +
       (lang !== 'en' ? '<p class="muted small">' + esc(t('factsEnglish')) + '</p>' : '') +
+      '<p class="muted small">' + esc(t('audioEnglishNote')) + '</p>' +
       '<ul class="facts">' + s.facts.map(factHTML).join('') + '</ul>' +
       '<div class="tipbox"><b>' + esc(t('tip')) + '</b> ' + esc(s.tip) + '</div>' +
       nearbyHTML('siteNearby', t('nearbyTitle'), s.lat, s.lon);
@@ -701,6 +729,16 @@
     $('speakBtn').onclick = function () { toggleAudio(); };
     $('abModeBrief').onclick = function () { setAudioMode('brief'); };
     $('abModeFull').onclick = function () { setAudioMode('full'); };
+    $('abAudioLang').value = audioLang;
+    $('abAudioLang').onchange = function () {
+      audioLang = this.value;
+      save('audio-language', audioLang);
+      stopAudio();
+      initAudioForSite(id, audioGuide.mode);
+      updateAudioUI();
+      var voice = getBestVoice();
+      $('abVoiceName').textContent = getVoiceLabel(voice);
+    };
 
     if (location.hash !== '#site/' + id) history.replaceState(null, '', '#site/' + id);
   }

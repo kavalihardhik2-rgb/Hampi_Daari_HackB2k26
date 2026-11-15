@@ -58,6 +58,11 @@ def home():
     return render_template("index.html")
 
 
+@app.get("/login")
+def login():
+    return render_template("login.html")
+
+
 @app.get("/signs")
 def signs():
     cards = [{"site": s, "qr": qr_svg(s["id"], 4)} for s in SITES]
