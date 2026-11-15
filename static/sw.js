@@ -1,5 +1,5 @@
 // Service worker for Hampi Daari: cache-first with network fallback
-const CACHE_NAME = 'hampi-daari-v6';
+const CACHE_NAME = 'hampi-daari-v7';
 const PRECACHE_URLS = [
   '/',
   '/signs',
@@ -32,6 +32,18 @@ self.addEventListener('activate', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
+  // HTML routes must reflect current Flask pages (for example, the login
+  // landing page) instead of a previously cached copy of the map.
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request).catch(function () {
+        return caches.match(event.request).then(function (cached) {
+          return cached || caches.match('/');
+        });
+      })
+    );
+    return;
+  }
   event.respondWith(
     caches.match(event.request).then(function (cached) {
       return cached || fetch(event.request);
