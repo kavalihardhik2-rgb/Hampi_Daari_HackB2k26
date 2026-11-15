@@ -24,16 +24,17 @@
     <div class="login-brand">Hampi Daari</div>
     <h1>Welcome back</h1>
     <p>Sign in to continue your Hampi visit.</p>
-    <form id="loginForm">
+    <form method="post" action="{{ url_for('login') }}">
+      <input type="hidden" name="next" value="{{ next_path or '/map' }}">
       <label for="email">Email</label>
       <input id="email" name="email" type="email" autocomplete="username" required placeholder="you@example.com">
       <label for="password">Password</label>
       <input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Your password">
       <button type="submit">Sign in</button>
     </form>
-    <div class="login-note" role="status">Sign-in is a preview screen. Account authentication is not configured yet.</div>
-    <a class="login-back" href="/">← Back to Hampi Daari</a>
+    {% if error %}<div class="login-note" role="alert">{{ error }}</div>{% endif %}
+    <p class="login-register">New to Hampi Daari? <a href="{{ url_for('register') }}">Create an account</a></p>
+    <a class="login-back" href="/">← Hampi Daari</a>
   </main>
-  <script>document.getElementById('loginForm').addEventListener('submit', function (event) { event.preventDefault(); });</script>
 </body>
 </html>

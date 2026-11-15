@@ -25,7 +25,10 @@
     <button data-lang="te">తెలుగు</button>
   </div>
   <button id="textToggle" class="text-toggle" aria-label="Toggle text size">A+</button>
-  <a class="text-toggle" href="/login" aria-label="Sign in">Sign in</a>
+  <form action="{{ url_for('logout') }}" method="post" class="logout-form">
+    <span class="text-toggle">{{ session.get('user_email', '') }}</span>
+    <button class="text-toggle" type="submit">Sign out</button>
+  </form>
 </header>
 
 <div class="layout">

@@ -37,6 +37,8 @@ button { cursor: pointer; }
 .lang button.on { background: var(--ochre); color: #fff; }
 .text-toggle { background: none; border: 1px solid var(--granite-2); border-radius: 999px; color: #cdbfa9; padding: 6px 10px; font-size: 13px; font-weight: 600; }
 .text-toggle.on { background: var(--ochre); color: #fff; }
+.logout-form { display: flex; align-items: center; gap: 6px; }
+.logout-form span { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .day-divider { list-style: none; background: var(--paper); border-left: 4px solid var(--ochre); padding: 8px 12px; margin: 14px 0 8px; border-radius: 6px; font-weight: 700; font-size: 14px; color: var(--ochre-dark); }
 body.large-text { font-size: 19px; }
 body.large-text .small { font-size: 15px; }

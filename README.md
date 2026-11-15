@@ -12,10 +12,11 @@ A visitor guide for Hampi — every monument on a map, every fact with its sourc
 | --- | --- | --- |
 | Monuments are spread out | Interactive map of 18 monuments with "closest to you", distance, direction, and a progress bar of what you've seen | `static/app.js` |
 | Visitors miss half the sites | **Route planner** — pick your time budget (2 h to 1 week), travel mode (walk / cycle / auto / bike / car), and get an optimised itinerary with day-by-day splits for multi-day plans | `hampi/planner.py` |
-| Very little signage | **Printable signboards** with QR codes for each monument — scan and the monument opens on your phone with facts, audio, and sources | `/signs`, `templates/signs.html` |
+| Very little signage | **Printable signboards** with QR codes for each monument — scan and sign in to open the monument with facts, audio, and sources | `/signs`, `templates/signs.html` |
 | Guides make up the history | **Claim checker** — type what the guide said and get a verdict backed by sources. Every fact is labelled *On record*, *Story*, or *Not known for sure* | `hampi/guide.py`, `data/claims.json` |
 | Language barrier | UI in **English, ಕನ್ನಡ, हिंदी, and తెలుగు**. Questions can be asked in Kannada, Hindi or Telugu — regional words are mapped to English tokens automatically | `hampi/text.py`, `static/app.js` |
-| No audio guides available | **Audio Guide & Audiobook** — every monument has a Brief Audio and a Full Story narrated with the best available voice (Siri / Natural / Neural), with play/pause, progress bar, and sentence-by-sentence chunking to avoid browser cutoffs | `static/app.js` |
+| No audio guides available | **Audio Guide & Audiobook** — brief and full modes, with a language selector for English, Kannada, Hindi, and Telugu. Playback uses matching voices installed in the browser or device; detailed historical facts are currently available in English | `static/app.js` |
+| No visitor accounts | **Sign-in and registration** — create an account, sign in, and protect the map behind a session. Passwords are stored as salted PBKDF2 hashes in a local SQLite database | `/login`, `/register`, `app.py` |
 | Can't identify a monument | **Photo-based monument lookup** — upload or snap a photo and the app matches it against sample images using client-side canvas comparison | `static/app.js`, `static/samples/` |
 | No internet at the site | **Offline PWA** — service worker caches the app shell, map data, and assets; works without internet (Ask/Check buttons gracefully show "Needs internet") | `static/sw.js`, `static/manifest.json` |
 | Accessibility | **Large-text toggle** and **voice input** (mic button using Web Speech API, with language auto-detection from current UI language) | `static/app.js`, `static/style.css` |
@@ -41,7 +42,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open http://localhost:5000. The terminal also prints an address like `http://192.168.x.x:5000` — any phone on the same Wi-Fi or hotspot can use it, and the QR codes on the signboards point to it.
+Open http://localhost:5000. The first page is the sign-in screen. On first use, open http://localhost:5000/register to create an account; after registering, you will go to the map at `/map`. Later, sign in at `/login`. The terminal also prints an address like `http://192.168.x.x:5000` for phones on the same Wi-Fi or hotspot.
+
+Accounts and the Flask session secret are stored in `instance/` inside the project directory. Keep this directory private and back it up if you need to retain local accounts. Set the `HAMPI_SECRET_KEY` environment variable to a long random value when deploying, and use HTTPS for a public deployment.
 
 ### Tests
 
@@ -79,7 +82,13 @@ When you open a monument (from the list, the map, or by scanning a QR code), the
 - ** Brief Audio** — a short welcome narration: monument name, zone, summary, and visitor tip
 - ** Full Story / Audiobook** — a chapter-by-chapter narration covering history, architecture, legends, and mysteries, built from all the monument's facts
 
-The app selects the **best available voice** (prioritising Siri, Samantha, Natural, Neural, Aria, Google voices) and narrates sentence-by-sentence with a live progress bar. Long narratives are chunked to prevent browser speech synthesis cutoffs.
+Choose English, Kannada, Hindi, or Telugu in the audiobook language dropdown. The browser supplies the speech voices, so playback uses a matching voice only when one is installed on the device. Monument summaries are available for all four languages. The detailed historical facts in the Full Story are currently English; selecting a different voice language does not translate those facts. Playback is narrated sentence-by-sentence with a live progress bar to reduce browser cutoffs.
+
+## Accounts and sign-in
+
+The `/` page sends signed-in visitors to the map and everyone else to `/login`. New visitors can create an account at `/register`; successful registration signs them in and opens `/map`. The map and printable signboard routes require a signed-in session. Use the **Sign out** button in the app header to end the session.
+
+User records are stored in `instance/accounts.sqlite3`. Passwords are never stored in plain text: the app stores a random salt and a PBKDF2-HMAC-SHA256 hash. The Flask session key is created in `instance/secret_key` on first run unless `HAMPI_SECRET_KEY` is set in the environment. Do not commit or share the `instance/` directory. This built-in account system is intended for this small app; use HTTPS and a deployment-grade secret key before exposing it publicly.
 
 ---
 
@@ -95,13 +104,15 @@ hampi/
   guide.py            ask() and check()
   planner.py          route planner (greedy + 2-opt)
 data/
-  sites.json          18 monuments: position, names (en/kn/hi), summaries, facts, sources
+  sites.json          18 monuments: position, names, summaries, facts, sources
   claims.json         20 common guide claims with verdicts
 templates/
   index.html          main app
+  login.html          sign-in form
+  register.html       account creation form
   signs.html          printable signboards
 static/
-  app.js              front-end: map, planner, guide, audio, photo lookup
+  app.js              front-end: map, planner, guide, multilingual audio, photo lookup
   style.css           all styles
   sw.js               service worker (offline PWA)
   manifest.json       web app manifest
@@ -114,7 +125,7 @@ docs/                 requirements, architecture, design, rules, tasks, memory
 PITCH.md              demo script and jury questions
 ```
 
-All content lives in the two JSON files. To add a monument, add one block to `sites.json`. To cover another place (Badami, Pattadakal, Mysuru), replace the two JSON files and the map centre in `app.js`. No other code changes.
+Monument records live in the JSON files. Telugu summaries and names currently live in `static/app.js`. To add a monument, add a block to `sites.json` and add its Telugu summary/name if needed. To cover another place (Badami, Pattadakal, Mysuru), replace the data and map centre in `app.js`.
 
 ---
 
@@ -140,9 +151,9 @@ All content lives in the two JSON files. To add a monument, add one block to `si
 
 - The facts were compiled with AI help. A handful were cross-checked online: dates and sizes for the Narasimha statue, the two Ganeshas, the Krishna temple and the Vittala temple. Check the rest against the ASI boards or the UNESCO listing before calling the data verified. Until then, call it curated.
 - Coordinates are approximate. Pins may be 50–150 metres off. Correct them from a reliable map.
-- Detailed facts are in English. Summaries and the full interface are in four languages. The Kannada, Hindi, and Telugu text needs a read-through by a native speaker.
+- Detailed facts are in English. Monument summaries and the interface are available in English, Kannada, Hindi, and Telugu. The Kannada, Hindi, and Telugu text needs a read-through by a native speaker.
 - Map tiles need internet. Without them, the pins and labels still show on a plain background.
 - GPS works only on `localhost` or HTTPS (a browser rule). On a phone over Wi-Fi, use "Tap map to set my spot".
 - Distances are straight lines × 1.35, not real walking paths. Speeds and visit times are estimates.
-- Audio narration quality depends on the browser's available voices. Safari and Chrome on modern devices have the best natural voices.
+- Audio voice availability and quality depend on voices installed in the browser or device. A language dropdown cannot add voices that the device does not provide, and translated summaries do not translate the English detailed facts.
 - QR codes printed while the app runs on a laptop point to that laptop. Set `PUBLIC_URL` to a hosted address before printing boards for real use.
