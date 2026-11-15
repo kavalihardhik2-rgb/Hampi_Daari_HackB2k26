@@ -55,12 +55,17 @@ def service_worker():
 
 @app.get("/")
 def home():
-    return render_template("index.html")
+    return render_template("login.html")
 
 
 @app.get("/login")
 def login():
     return render_template("login.html")
+
+
+@app.get("/map")
+def map_page():
+    return render_template("index.html")
 
 
 @app.get("/signs")
