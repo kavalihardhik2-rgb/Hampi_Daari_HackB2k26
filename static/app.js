@@ -48,7 +48,7 @@
       audiobook: 'Audio Guide & Story', briefAudio: '⚡ Brief Audio', fullAudio: '📖 Full Story / Audiobook',
       playBrief: 'Play Brief Audio', playFull: 'Play Full Audiobook', pause: 'Pause', resume: 'Resume', replay: 'Replay',
       playing: 'Playing narrative...', paused: 'Audio paused', audioReady: 'Tap play to listen',
-      scannedQr: '📍 Scanned from Signboard', voiceSiri: 'Siri / Natural Voice'
+      scannedQr: '📍 Scanned from Signboard', voiceSiri: 'English voice (device default)'
     },
     kn: {
       tagline: 'ಪ್ರತಿ ಸ್ಮಾರಕ. ಪ್ರತಿ ಮಾಹಿತಿಗೂ ಆಧಾರ.',
@@ -383,37 +383,21 @@
       speechSynthesis.onvoiceschanged = function () {
         loadVoices();
         var vEl = $('abVoiceName');
-        if (vEl) vEl.textContent = getVoiceLabel(getBestVoice(lang));
+        if (vEl) vEl.textContent = getVoiceLabel(getBestVoice());
       };
     }
   }
 
-  function getBestVoice(targetLang) {
+  function getBestVoice() {
     if (!window.speechSynthesis) return null;
     var voices = cachedVoices.length ? cachedVoices : (speechSynthesis.getVoices() || []);
     if (!voices || !voices.length) return null;
 
-    var prefLang = (SPEECH_LANG[targetLang] || 'en-IN').toLowerCase();
-    var langPrefix = prefLang.split('-')[0];
+    voices = voices.filter(function (v) { return /^en(?:-|$)/i.test(v.lang || ''); });
+    if (!voices.length) return null;
 
     function score(v) {
-      var pts = 0;
-      var n = (v.name || '').toLowerCase();
-      var vl = (v.lang || '').toLowerCase();
-
-      if (n.indexOf('siri') !== -1) pts += 1200;
-      if (n.indexOf('samantha') !== -1) pts += 900;
-      if (n.indexOf('natural') !== -1 || n.indexOf('neural') !== -1) pts += 850;
-      if (n.indexOf('aria') !== -1) pts += 800;
-      if (n.indexOf('jenny') !== -1 || n.indexOf('guy') !== -1) pts += 750;
-      if (n.indexOf('google') !== -1) pts += 600;
-      if (n.indexOf('karen') !== -1 || n.indexOf('victoria') !== -1 || n.indexOf('daniel') !== -1) pts += 550;
-
-      if (vl === prefLang) pts += 250;
-      else if (vl.indexOf(langPrefix) === 0) pts += 180;
-      else if (vl.indexOf('en') === 0) pts += 50;
-
-      return pts;
+      return (v.lang || '').toLowerCase() === 'en-in' ? 1 : 0;
     }
 
     var sorted = voices.slice().sort(function (a, b) { return score(b) - score(a); });
@@ -421,14 +405,7 @@
   }
 
   function getVoiceLabel(voice) {
-    if (!voice) return t('voiceSiri');
-    var n = voice.name;
-    if (/siri/i.test(n)) return 'Apple Siri Voice';
-    if (/samantha/i.test(n)) return 'Siri Voice (Samantha)';
-    if (/natural|neural/i.test(n)) return 'Natural Neural Voice';
-    if (/aria/i.test(n)) return 'Microsoft Natural (Aria)';
-    if (/google/i.test(n)) return 'Google Natural Voice';
-    return n.length > 22 ? n.substring(0, 20) + '…' : n;
+    return voice ? voice.name + ' (' + voice.lang + ')' : t('voiceSiri');
   }
 
   function splitIntoSentences(text) {
@@ -439,7 +416,7 @@
 
   function buildAudiobookNarrative(site, isFull, targetLang) {
     var siteName = name(site);
-    var sum = site.summary[targetLang] || site.summary.en;
+    var sum = site.summary.en || site.summary[targetLang];
     var tip = site.tip || '';
 
     if (!isFull) {
@@ -542,12 +519,12 @@
 
     var sText = audioGuide.sentences[index];
     var u = new SpeechSynthesisUtterance(sText);
-    var voice = getBestVoice(lang);
+    var voice = getBestVoice();
     if (voice) {
       u.voice = voice;
       u.lang = voice.lang;
     } else {
-      u.lang = SPEECH_LANG[lang] || 'en-IN';
+      u.lang = 'en-IN';
     }
     u.rate = 0.95;
     u.pitch = 1.02;
@@ -621,7 +598,7 @@
       fullBtn.classList.toggle('on', audioGuide.mode === 'full');
     }
     if (voiceEl) {
-      voiceEl.textContent = getVoiceLabel(getBestVoice(lang));
+      voiceEl.textContent = getVoiceLabel(getBestVoice());
     }
 
     var total = Math.max(1, audioGuide.sentences.length);
@@ -665,7 +642,7 @@
 
     var isFromQR = location.hash === '#site/' + id;
     var summary = s.summary[lang] || s.summary.en;
-    var bestVoice = getBestVoice(lang);
+    var bestVoice = getBestVoice();
     var voiceName = getVoiceLabel(bestVoice);
 
     $('sheetBody').innerHTML =
